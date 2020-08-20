@@ -1,0 +1,2160 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>D:\27062020\27062020Automation\Tricentis_Motorcycle\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">85 methods, 3 failed,  6 skipped,  76 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="selectPicture">selectPicture</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsNextClickable">verifyIsNextClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="verifyOnClickPrevButton">verifyOnClickPrevButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="damageInsuranceOptionsVisible">damageInsuranceOptionsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="hobbiesOptionsVisible">hobbiesOptionsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="hobbiesOptionsVisible">hobbiesOptionsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="invalidWebsitentry">invalidWebsitentry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="validStartDateText">validStartDateText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="validWebsiteEntry">validWebsiteEntry</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="checkNextLabelInsSum">checkNextLabelInsSum</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="damageInsuranceLabelVisible">damageInsuranceLabelVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="enterandVerifySendQuotesPage">enterandVerifySendQuotesPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="isCalendarButtonClickable">isCalendarButtonClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="isDamageInsuranceDropDownVisible">isDamageInsuranceDropDownVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="isHobbiesCheckBoxVisible">isHobbiesCheckBoxVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="isHobbiesLabelVisible">isHobbiesLabelVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="isInsuranceSumDropDownVisible">isInsuranceSumDropDownVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="isInsuranceSumLabelVisible">isInsuranceSumLabelVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="isNextButtonVisible">isNextButtonVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="isNextButtonVisible">isNextButtonVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="isOptionalProductTextBoxVisible">isOptionalProductTextBoxVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="isOptionalProductsLabelVisible">isOptionalProductsLabelVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="isPictureLabelVisible">isPictureLabelVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="isPrevButtonVisible">isPrevButtonVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="isPrevButtonVisible">isPrevButtonVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="isStartDateLabelVisible">isStartDateLabelVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="isStartDateTextBoxVisible">isStartDateTextBoxVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="isWebsiteLabelVisible">isWebsiteLabelVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="isWebsiteTextBoxVisible">isWebsiteTextBoxVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="validDamageInsuranceDropDownSelection">validDamageInsuranceDropDownSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="validHobbiesSelection">validHobbiesSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="validInsuranceDropDown">validInsuranceDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyAnnualMileageSelection">verifyAnnualMileageSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyCylinderCapacitySelection">verifyCylinderCapacitySelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyDateOfmanufacture">verifyDateOfmanufacture</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyEnginePerformanceSelection">verifyEnginePerformanceSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsAnnualMileageVisible">verifyIsAnnualMileageVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsAnnualMileagetext">verifyIsAnnualMileagetext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsCommentsVisible">verifyIsCommentsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsConfirmpasswordVisible">verifyIsConfirmpasswordVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsCylinderCapacityVisible">verifyIsCylinderCapacityVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsCylinderCapacitytext">verifyIsCylinderCapacitytext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsDateOfManufacturetext">verifyIsDateOfManufacturetext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsEmailVisible">verifyIsEmailVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsEnginePerformanceVisible">verifyIsEnginePerformanceVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsEnginePerformancetext">verifyIsEnginePerformancetext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsListPriceVisible">verifyIsListPriceVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsListpricetext">verifyIsListpricetext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsMainpageVisible">verifyIsMainpageVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsMakeVisible">verifyIsMakeVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsMaketext">verifyIsMaketext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsModelVisible">verifyIsModelVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsModeltext">verifyIsModeltext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsNewautomobileinsuranceVisible">verifyIsNewautomobileinsuranceVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsNewcamperinsuranceVisible">verifyIsNewcamperinsuranceVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsNewtruckinsuranceVisible">verifyIsNewtruckinsuranceVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsNextButtonVisible">verifyIsNextButtonVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsNextButtontext">verifyIsNextButtontext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsNumberOfSeatsVisible">verifyIsNumberOfSeatsVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsNumberofSeatstext">verifyIsNumberofSeatstext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsOpenDateOfCalenderButtonVisible">verifyIsOpenDateOfCalenderButtonVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsOpenNextButtonVisible">verifyIsOpenNextButtonVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsOpenNextClickable">verifyIsOpenNextClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsOpenPrevButtonVisible">verifyIsOpenPrevButtonVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsOpenPrevClickable">verifyIsOpenPrevClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsOpendateOfcalenderClickable">verifyIsOpendateOfcalenderClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsPasswordVisible">verifyIsPasswordVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsPhoneVisible">verifyIsPhoneVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsPrevVisible">verifyIsPrevVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsSelectMaker1Selectable">verifyIsSelectMaker1Selectable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsSelectMaker2Selectable">verifyIsSelectMaker2Selectable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyIsSelectMakerSelectable">verifyIsSelectMakerSelectable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SelectPriceOption" hash-for-method="verifyIsSelectpriceoption1Clickable">verifyIsSelectpriceoption1Clickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SelectPriceOption" hash-for-method="verifyIsSelectpriceoption1text">verifyIsSelectpriceoption1text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SelectPriceOption" hash-for-method="verifyIsSelectpriceoptionClickable">verifyIsSelectpriceoptionClickable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SelectPriceOption" hash-for-method="verifyIsSelectpriceoptionVisible">verifyIsSelectpriceoptionVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SelectPriceOption" hash-for-method="verifyIsSelectpriceoptiontext">verifyIsSelectpriceoptiontext</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsSendemailVisible">verifyIsSendemailVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.SendQuote" hash-for-method="verifyIsUsernameVisible">verifyIsUsernameVisible</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterVehicleData" hash-for-method="verifyListPriceSelection">verifyListPriceSelection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="verifyNextButtonText">verifyNextButtonText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="verifyNextButtonText">verifyNextButtonText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="verifyOnClickPrevButton">verifyOnClickPrevButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterProductData" hash-for-method="verifyPrevButtonText">verifyPrevButtonText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Motorcycle.EnterInsuranceData" hash-for-method="verifyPrevButtonText">verifyPrevButtonText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScripts.Motorcycle.EnterProductData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOnClickPrevButton">
+                  </a> <!-- verifyOnClickPrevButton -->
+                  <span class="method-name">verifyOnClickPrevButton</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;preventerinsurancedata&quot; name=&quot;Prev (Enter Insurance Data)&quot; type=&quot;button&quot; class=&quot;prev&quot;&gt;...&lt;/button&gt; is not clickable at point (393, 401). Other element would receive the click: &lt;div id=&quot;ui-datepicker-div&quot; class=&quot;ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all&quot; style=&quot;position: absolute; top: 354.594px; left: 345.5px; z-index: 1; display: block; width: 290px;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=84.0.4147.135)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;A&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c48684a0cdd977cb1035e7e241f5173
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pages.Motorcycle.EnterProductData.ClickPrev(EnterProductData.java:153)
+	at testScripts.Motorcycle.EnterProductData.verifyOnClickPrevButton(EnterProductData.java:117)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScripts.Motorcycle.EnterVehicleData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsNextClickable">
+                  </a> <!-- verifyIsNextClickable -->
+                  <span class="method-name">verifyIsNextClickable</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;nextenterinsurantdata&quot; name=&quot;Next (Enter Insurant Data)&quot; type=&quot;button&quot; class=&quot;next button&quot;&gt;...&lt;/button&gt; is not clickable at point (393, 594). Other element would receive the click: &lt;a class=&quot;ui-state-default&quot; href=&quot;#&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=84.0.4147.135)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;A&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 9c48684a0cdd977cb1035e7e241f5173
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at pages.Motorcycle.EnterVehicleData.clickNextButton(EnterVehicleData.java:228)
+	at testScripts.Motorcycle.EnterVehicleData.verifyIsNextClickable(EnterVehicleData.java:170)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testScripts.Motorcycle.EnterInsuranceData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectPicture">
+                  </a> <!-- selectPicture -->
+                  <span class="method-name">selectPicture</span>
+                  <div class="stack-trace">java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source)
+	at pages.Motorcycle.EnterInsuranceData.validPictureSelection(EnterInsuranceData.java:149)
+	at testScripts.Motorcycle.EnterInsuranceData.selectPicture(EnterInsuranceData.java:80)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testScripts.Motorcycle.EnterProductData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="damageInsuranceOptionsVisible">
+                  </a> <!-- damageInsuranceOptionsVisible -->
+                  <span class="method-name">damageInsuranceOptionsVisible</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.damageInsuranceOptions() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="hobbiesOptionsVisible">
+                  </a> <!-- hobbiesOptionsVisible -->
+                  <span class="method-name">hobbiesOptionsVisible</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.insuranceSumOptions() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validStartDateText">
+                  </a> <!-- validStartDateText -->
+                  <span class="method-name">validStartDateText</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.startDateValid() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testScripts.Motorcycle.EnterInsuranceData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hobbiesOptionsVisible">
+                  </a> <!-- hobbiesOptionsVisible -->
+                  <span class="method-name">hobbiesOptionsVisible</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.hobbiesOptions() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidWebsitentry">
+                  </a> <!-- invalidWebsitentry -->
+                  <span class="method-name">invalidWebsitentry</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.invalidWebsiteTestData() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validWebsiteEntry">
+                  </a> <!-- validWebsiteEntry -->
+                  <span class="method-name">validWebsiteEntry</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.validWebsiteTestData() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScripts.Motorcycle.EnterVehicleData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAnnualMileageSelection">
+                  </a> <!-- verifyAnnualMileageSelection -->
+                  <span class="method-name">verifyAnnualMileageSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCylinderCapacitySelection">
+                  </a> <!-- verifyCylinderCapacitySelection -->
+                  <span class="method-name">verifyCylinderCapacitySelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDateOfmanufacture">
+                  </a> <!-- verifyDateOfmanufacture -->
+                  <span class="method-name">verifyDateOfmanufacture</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEnginePerformanceSelection">
+                  </a> <!-- verifyEnginePerformanceSelection -->
+                  <span class="method-name">verifyEnginePerformanceSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsAnnualMileageVisible">
+                  </a> <!-- verifyIsAnnualMileageVisible -->
+                  <span class="method-name">verifyIsAnnualMileageVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsAnnualMileagetext">
+                  </a> <!-- verifyIsAnnualMileagetext -->
+                  <span class="method-name">verifyIsAnnualMileagetext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsCylinderCapacityVisible">
+                  </a> <!-- verifyIsCylinderCapacityVisible -->
+                  <span class="method-name">verifyIsCylinderCapacityVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsCylinderCapacitytext">
+                  </a> <!-- verifyIsCylinderCapacitytext -->
+                  <span class="method-name">verifyIsCylinderCapacitytext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsDateOfManufacturetext">
+                  </a> <!-- verifyIsDateOfManufacturetext -->
+                  <span class="method-name">verifyIsDateOfManufacturetext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsEnginePerformanceVisible">
+                  </a> <!-- verifyIsEnginePerformanceVisible -->
+                  <span class="method-name">verifyIsEnginePerformanceVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsEnginePerformancetext">
+                  </a> <!-- verifyIsEnginePerformancetext -->
+                  <span class="method-name">verifyIsEnginePerformancetext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsListPriceVisible">
+                  </a> <!-- verifyIsListPriceVisible -->
+                  <span class="method-name">verifyIsListPriceVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsListpricetext">
+                  </a> <!-- verifyIsListpricetext -->
+                  <span class="method-name">verifyIsListpricetext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsMakeVisible">
+                  </a> <!-- verifyIsMakeVisible -->
+                  <span class="method-name">verifyIsMakeVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsMaketext">
+                  </a> <!-- verifyIsMaketext -->
+                  <span class="method-name">verifyIsMaketext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsModelVisible">
+                  </a> <!-- verifyIsModelVisible -->
+                  <span class="method-name">verifyIsModelVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsModeltext">
+                  </a> <!-- verifyIsModeltext -->
+                  <span class="method-name">verifyIsModeltext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsNextButtonVisible">
+                  </a> <!-- verifyIsNextButtonVisible -->
+                  <span class="method-name">verifyIsNextButtonVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsNextButtontext">
+                  </a> <!-- verifyIsNextButtontext -->
+                  <span class="method-name">verifyIsNextButtontext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsNumberOfSeatsVisible">
+                  </a> <!-- verifyIsNumberOfSeatsVisible -->
+                  <span class="method-name">verifyIsNumberOfSeatsVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsNumberofSeatstext">
+                  </a> <!-- verifyIsNumberofSeatstext -->
+                  <span class="method-name">verifyIsNumberofSeatstext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsOpenDateOfCalenderButtonVisible">
+                  </a> <!-- verifyIsOpenDateOfCalenderButtonVisible -->
+                  <span class="method-name">verifyIsOpenDateOfCalenderButtonVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsOpenNextButtonVisible">
+                  </a> <!-- verifyIsOpenNextButtonVisible -->
+                  <span class="method-name">verifyIsOpenNextButtonVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsOpenNextClickable">
+                  </a> <!-- verifyIsOpenNextClickable -->
+                  <span class="method-name">verifyIsOpenNextClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsOpenPrevButtonVisible">
+                  </a> <!-- verifyIsOpenPrevButtonVisible -->
+                  <span class="method-name">verifyIsOpenPrevButtonVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsOpenPrevClickable">
+                  </a> <!-- verifyIsOpenPrevClickable -->
+                  <span class="method-name">verifyIsOpenPrevClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsOpendateOfcalenderClickable">
+                  </a> <!-- verifyIsOpendateOfcalenderClickable -->
+                  <span class="method-name">verifyIsOpendateOfcalenderClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsSelectMaker1Selectable">
+                  </a> <!-- verifyIsSelectMaker1Selectable -->
+                  <span class="method-name">verifyIsSelectMaker1Selectable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsSelectMaker2Selectable">
+                  </a> <!-- verifyIsSelectMaker2Selectable -->
+                  <span class="method-name">verifyIsSelectMaker2Selectable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsSelectMakerSelectable">
+                  </a> <!-- verifyIsSelectMakerSelectable -->
+                  <span class="method-name">verifyIsSelectMakerSelectable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyListPriceSelection">
+                  </a> <!-- verifyListPriceSelection -->
+                  <span class="method-name">verifyListPriceSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScripts.Motorcycle.EnterProductData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkNextLabelInsSum">
+                  </a> <!-- checkNextLabelInsSum -->
+                  <span class="method-name">checkNextLabelInsSum</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="damageInsuranceLabelVisible">
+                  </a> <!-- damageInsuranceLabelVisible -->
+                  <span class="method-name">damageInsuranceLabelVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isCalendarButtonClickable">
+                  </a> <!-- isCalendarButtonClickable -->
+                  <span class="method-name">isCalendarButtonClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isDamageInsuranceDropDownVisible">
+                  </a> <!-- isDamageInsuranceDropDownVisible -->
+                  <span class="method-name">isDamageInsuranceDropDownVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isInsuranceSumDropDownVisible">
+                  </a> <!-- isInsuranceSumDropDownVisible -->
+                  <span class="method-name">isInsuranceSumDropDownVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isInsuranceSumLabelVisible">
+                  </a> <!-- isInsuranceSumLabelVisible -->
+                  <span class="method-name">isInsuranceSumLabelVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNextButtonVisible">
+                  </a> <!-- isNextButtonVisible -->
+                  <span class="method-name">isNextButtonVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isOptionalProductTextBoxVisible">
+                  </a> <!-- isOptionalProductTextBoxVisible -->
+                  <span class="method-name">isOptionalProductTextBoxVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isOptionalProductsLabelVisible">
+                  </a> <!-- isOptionalProductsLabelVisible -->
+                  <span class="method-name">isOptionalProductsLabelVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPrevButtonVisible">
+                  </a> <!-- isPrevButtonVisible -->
+                  <span class="method-name">isPrevButtonVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isStartDateLabelVisible">
+                  </a> <!-- isStartDateLabelVisible -->
+                  <span class="method-name">isStartDateLabelVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isStartDateTextBoxVisible">
+                  </a> <!-- isStartDateTextBoxVisible -->
+                  <span class="method-name">isStartDateTextBoxVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validDamageInsuranceDropDownSelection">
+                  </a> <!-- validDamageInsuranceDropDownSelection -->
+                  <span class="method-name">validDamageInsuranceDropDownSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validInsuranceDropDown">
+                  </a> <!-- validInsuranceDropDown -->
+                  <span class="method-name">validInsuranceDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNextButtonText">
+                  </a> <!-- verifyNextButtonText -->
+                  <span class="method-name">verifyNextButtonText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPrevButtonText">
+                  </a> <!-- verifyPrevButtonText -->
+                  <span class="method-name">verifyPrevButtonText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScripts.Motorcycle.SendQuote</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterandVerifySendQuotesPage">
+                  </a> <!-- enterandVerifySendQuotesPage -->
+                  <span class="method-name">enterandVerifySendQuotesPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsCommentsVisible">
+                  </a> <!-- verifyIsCommentsVisible -->
+                  <span class="method-name">verifyIsCommentsVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsConfirmpasswordVisible">
+                  </a> <!-- verifyIsConfirmpasswordVisible -->
+                  <span class="method-name">verifyIsConfirmpasswordVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsEmailVisible">
+                  </a> <!-- verifyIsEmailVisible -->
+                  <span class="method-name">verifyIsEmailVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsMainpageVisible">
+                  </a> <!-- verifyIsMainpageVisible -->
+                  <span class="method-name">verifyIsMainpageVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsNewautomobileinsuranceVisible">
+                  </a> <!-- verifyIsNewautomobileinsuranceVisible -->
+                  <span class="method-name">verifyIsNewautomobileinsuranceVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsNewcamperinsuranceVisible">
+                  </a> <!-- verifyIsNewcamperinsuranceVisible -->
+                  <span class="method-name">verifyIsNewcamperinsuranceVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsNewtruckinsuranceVisible">
+                  </a> <!-- verifyIsNewtruckinsuranceVisible -->
+                  <span class="method-name">verifyIsNewtruckinsuranceVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsPasswordVisible">
+                  </a> <!-- verifyIsPasswordVisible -->
+                  <span class="method-name">verifyIsPasswordVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsPhoneVisible">
+                  </a> <!-- verifyIsPhoneVisible -->
+                  <span class="method-name">verifyIsPhoneVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsPrevVisible">
+                  </a> <!-- verifyIsPrevVisible -->
+                  <span class="method-name">verifyIsPrevVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsSendemailVisible">
+                  </a> <!-- verifyIsSendemailVisible -->
+                  <span class="method-name">verifyIsSendemailVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsUsernameVisible">
+                  </a> <!-- verifyIsUsernameVisible -->
+                  <span class="method-name">verifyIsUsernameVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScripts.Motorcycle.SelectPriceOption</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsSelectpriceoption1Clickable">
+                  </a> <!-- verifyIsSelectpriceoption1Clickable -->
+                  <span class="method-name">verifyIsSelectpriceoption1Clickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsSelectpriceoption1text">
+                  </a> <!-- verifyIsSelectpriceoption1text -->
+                  <span class="method-name">verifyIsSelectpriceoption1text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsSelectpriceoptionClickable">
+                  </a> <!-- verifyIsSelectpriceoptionClickable -->
+                  <span class="method-name">verifyIsSelectpriceoptionClickable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsSelectpriceoptionVisible">
+                  </a> <!-- verifyIsSelectpriceoptionVisible -->
+                  <span class="method-name">verifyIsSelectpriceoptionVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyIsSelectpriceoptiontext">
+                  </a> <!-- verifyIsSelectpriceoptiontext -->
+                  <span class="method-name">verifyIsSelectpriceoptiontext</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testScripts.Motorcycle.EnterInsuranceData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isHobbiesCheckBoxVisible">
+                  </a> <!-- isHobbiesCheckBoxVisible -->
+                  <span class="method-name">isHobbiesCheckBoxVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isHobbiesLabelVisible">
+                  </a> <!-- isHobbiesLabelVisible -->
+                  <span class="method-name">isHobbiesLabelVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNextButtonVisible">
+                  </a> <!-- isNextButtonVisible -->
+                  <span class="method-name">isNextButtonVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPictureLabelVisible">
+                  </a> <!-- isPictureLabelVisible -->
+                  <span class="method-name">isPictureLabelVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPrevButtonVisible">
+                  </a> <!-- isPrevButtonVisible -->
+                  <span class="method-name">isPrevButtonVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isWebsiteLabelVisible">
+                  </a> <!-- isWebsiteLabelVisible -->
+                  <span class="method-name">isWebsiteLabelVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isWebsiteTextBoxVisible">
+                  </a> <!-- isWebsiteTextBoxVisible -->
+                  <span class="method-name">isWebsiteTextBoxVisible</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validHobbiesSelection">
+                  </a> <!-- validHobbiesSelection -->
+                  <span class="method-name">validHobbiesSelection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNextButtonText">
+                  </a> <!-- verifyNextButtonText -->
+                  <span class="method-name">verifyNextButtonText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyOnClickPrevButton">
+                  </a> <!-- verifyOnClickPrevButton -->
+                  <span class="method-name">verifyOnClickPrevButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPrevButtonText">
+                  </a> <!-- verifyPrevButtonText -->
+                  <span class="method-name">verifyPrevButtonText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\27062020\27062020Automation\Tricentis_Motorcycle\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testScripts.Motorcycle.EnterVehicleData&quot;/&gt;
+      &lt;class name=&quot;testScripts.Motorcycle.EnterInsuranceData&quot;/&gt;
+      &lt;class name=&quot;testScripts.Motorcycle.EnterProductData&quot;/&gt;
+      &lt;class name=&quot;testScripts.Motorcycle.SelectPriceOption&quot;/&gt;
+      &lt;class name=&quot;testScripts.Motorcycle.SendQuote&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(85);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'selectPicture')
+data.setCell(0, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(0, 3, 11490);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterandVerifySendQuotesPage')
+data.setCell(1, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(1, 3, 8102);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyIsSelectMaker1Selectable')
+data.setCell(2, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(2, 3, 3499);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyIsSelectMakerSelectable')
+data.setCell(3, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(3, 3, 3302);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyIsSelectMaker2Selectable')
+data.setCell(4, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(4, 3, 3271);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAnnualMileageSelection')
+data.setCell(5, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(5, 3, 2003);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyListPriceSelection')
+data.setCell(6, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(6, 3, 1639);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyIsNextClickable')
+data.setCell(7, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(7, 3, 1401);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyOnClickPrevButton')
+data.setCell(8, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(8, 3, 1202);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyEnginePerformanceSelection')
+data.setCell(9, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(9, 3, 1198);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyCylinderCapacitySelection')
+data.setCell(10, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(10, 3, 1193);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyDateOfmanufacture')
+data.setCell(11, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(11, 3, 1083);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyIsSelectpriceoptionClickable')
+data.setCell(12, 2, 'testScripts.Motorcycle.SelectPriceOption')
+data.setCell(12, 3, 790);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyIsSelectpriceoptionVisible')
+data.setCell(13, 2, 'testScripts.Motorcycle.SelectPriceOption')
+data.setCell(13, 3, 584);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyIsSelectpriceoptiontext')
+data.setCell(14, 2, 'testScripts.Motorcycle.SelectPriceOption')
+data.setCell(14, 3, 511);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyOnClickPrevButton')
+data.setCell(15, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(15, 3, 481);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyIsSelectpriceoption1text')
+data.setCell(16, 2, 'testScripts.Motorcycle.SelectPriceOption')
+data.setCell(16, 3, 261);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validHobbiesSelection')
+data.setCell(17, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(17, 3, 252);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'isCalendarButtonClickable')
+data.setCell(18, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(18, 3, 210);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'validInsuranceDropDown')
+data.setCell(19, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(19, 3, 202);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyIsOpenPrevClickable')
+data.setCell(20, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(20, 3, 200);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'validDamageInsuranceDropDownSelection')
+data.setCell(21, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(21, 3, 194);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyIsOpenNextClickable')
+data.setCell(22, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(22, 3, 192);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyIsOpendateOfcalenderClickable')
+data.setCell(23, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(23, 3, 192);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkNextLabelInsSum')
+data.setCell(24, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(24, 3, 177);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyIsSelectpriceoption1Clickable')
+data.setCell(25, 2, 'testScripts.Motorcycle.SelectPriceOption')
+data.setCell(25, 3, 163);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyIsAnnualMileageVisible')
+data.setCell(26, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(26, 3, 132);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'isHobbiesCheckBoxVisible')
+data.setCell(27, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(27, 3, 105);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyIsAnnualMileagetext')
+data.setCell(28, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(28, 3, 89);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyPrevButtonText')
+data.setCell(29, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(29, 3, 77);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyNextButtonText')
+data.setCell(30, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(30, 3, 72);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyIsCommentsVisible')
+data.setCell(31, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(31, 3, 67);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'isInsuranceSumLabelVisible')
+data.setCell(32, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(32, 3, 66);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyPrevButtonText')
+data.setCell(33, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(33, 3, 65);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyIsDateOfManufacturetext')
+data.setCell(34, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(34, 3, 59);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifyIsNumberofSeatstext')
+data.setCell(35, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(35, 3, 56);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyIsCylinderCapacitytext')
+data.setCell(36, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(36, 3, 56);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyIsEnginePerformancetext')
+data.setCell(37, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(37, 3, 56);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyIsNextButtontext')
+data.setCell(38, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(38, 3, 55);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'isNextButtonVisible')
+data.setCell(39, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(39, 3, 55);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifyIsModeltext')
+data.setCell(40, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(40, 3, 53);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'verifyIsMaketext')
+data.setCell(41, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(41, 3, 53);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verifyIsListpricetext')
+data.setCell(42, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(42, 3, 52);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'verifyNextButtonText')
+data.setCell(43, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(43, 3, 50);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'isDamageInsuranceDropDownVisible')
+data.setCell(44, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(44, 3, 50);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'isHobbiesLabelVisible')
+data.setCell(45, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(45, 3, 50);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'isInsuranceSumDropDownVisible')
+data.setCell(46, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(46, 3, 49);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'isStartDateLabelVisible')
+data.setCell(47, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(47, 3, 44);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'verifyIsEmailVisible')
+data.setCell(48, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(48, 3, 43);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'isStartDateTextBoxVisible')
+data.setCell(49, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(49, 3, 43);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'damageInsuranceLabelVisible')
+data.setCell(50, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(50, 3, 43);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'verifyIsModelVisible')
+data.setCell(51, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(51, 3, 39);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'isOptionalProductTextBoxVisible')
+data.setCell(52, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(52, 3, 39);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'verifyIsConfirmpasswordVisible')
+data.setCell(53, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(53, 3, 38);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'verifyIsOpenDateOfCalenderButtonVisible')
+data.setCell(54, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(54, 3, 38);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'verifyIsMakeVisible')
+data.setCell(55, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(55, 3, 38);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'verifyIsNextButtonVisible')
+data.setCell(56, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(56, 3, 37);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'verifyIsOpenPrevButtonVisible')
+data.setCell(57, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(57, 3, 36);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'verifyIsListPriceVisible')
+data.setCell(58, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(58, 3, 36);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'verifyIsEnginePerformanceVisible')
+data.setCell(59, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(59, 3, 35);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'isNextButtonVisible')
+data.setCell(60, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(60, 3, 35);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'verifyIsNumberOfSeatsVisible')
+data.setCell(61, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(61, 3, 34);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'isPrevButtonVisible')
+data.setCell(62, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(62, 3, 32);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'verifyIsSendemailVisible')
+data.setCell(63, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(63, 3, 31);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'verifyIsNewautomobileinsuranceVisible')
+data.setCell(64, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(64, 3, 31);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'isOptionalProductsLabelVisible')
+data.setCell(65, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(65, 3, 31);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'verifyIsPhoneVisible')
+data.setCell(66, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(66, 3, 31);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'verifyIsUsernameVisible')
+data.setCell(67, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(67, 3, 31);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'isWebsiteLabelVisible')
+data.setCell(68, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(68, 3, 31);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'verifyIsNewtruckinsuranceVisible')
+data.setCell(69, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(69, 3, 30);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'verifyIsPasswordVisible')
+data.setCell(70, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(70, 3, 30);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'isWebsiteTextBoxVisible')
+data.setCell(71, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(71, 3, 29);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'verifyIsPrevVisible')
+data.setCell(72, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(72, 3, 29);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'isPrevButtonVisible')
+data.setCell(73, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(73, 3, 29);
+data.setCell(74, 0, 74)
+data.setCell(74, 1, 'verifyIsCylinderCapacityVisible')
+data.setCell(74, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(74, 3, 29);
+data.setCell(75, 0, 75)
+data.setCell(75, 1, 'verifyIsOpenNextButtonVisible')
+data.setCell(75, 2, 'testScripts.Motorcycle.EnterVehicleData')
+data.setCell(75, 3, 28);
+data.setCell(76, 0, 76)
+data.setCell(76, 1, 'isPictureLabelVisible')
+data.setCell(76, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(76, 3, 28);
+data.setCell(77, 0, 77)
+data.setCell(77, 1, 'verifyIsMainpageVisible')
+data.setCell(77, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(77, 3, 27);
+data.setCell(78, 0, 78)
+data.setCell(78, 1, 'verifyIsNewcamperinsuranceVisible')
+data.setCell(78, 2, 'testScripts.Motorcycle.SendQuote')
+data.setCell(78, 3, 27);
+data.setCell(79, 0, 79)
+data.setCell(79, 1, 'validWebsiteEntry')
+data.setCell(79, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(79, 3, 0);
+data.setCell(80, 0, 80)
+data.setCell(80, 1, 'validStartDateText')
+data.setCell(80, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(80, 3, 0);
+data.setCell(81, 0, 81)
+data.setCell(81, 1, 'hobbiesOptionsVisible')
+data.setCell(81, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(81, 3, 0);
+data.setCell(82, 0, 82)
+data.setCell(82, 1, 'invalidWebsitentry')
+data.setCell(82, 2, 'testScripts.Motorcycle.EnterInsuranceData')
+data.setCell(82, 3, 0);
+data.setCell(83, 0, 83)
+data.setCell(83, 1, 'damageInsuranceOptionsVisible')
+data.setCell(83, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(83, 3, 0);
+data.setCell(84, 0, 84)
+data.setCell(84, 1, 'hobbiesOptionsVisible')
+data.setCell(84, 2, 'testScripts.Motorcycle.EnterProductData')
+data.setCell(84, 3, 0);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 46 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">16 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScripts.Motorcycle.EnterProductData</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScripts.Motorcycle.SelectPriceOption</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScripts.Motorcycle.SendQuote</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testScripts.Motorcycle.EnterInsuranceData</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initialize</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">closeBrowser</span>
+                <br/>
+                <span class="ignored-method-name">launchBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScripts.Motorcycle.EnterVehicleData</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser(Chrome)</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">navigateToEnterVehicleData</span>
+                <span class="method-start">33435 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyAnnualMileageSelection</span>
+                <span class="method-start">36505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCylinderCapacitySelection</span>
+                <span class="method-start">38511 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyDateOfmanufacture</span>
+                <span class="method-start">39707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyEnginePerformanceSelection</span>
+                <span class="method-start">40793 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsAnnualMileageVisible</span>
+                <span class="method-start">41994 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsAnnualMileagetext</span>
+                <span class="method-start">42128 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsCylinderCapacityVisible</span>
+                <span class="method-start">42219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsCylinderCapacitytext</span>
+                <span class="method-start">42250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsDateOfManufacturetext</span>
+                <span class="method-start">42308 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsEnginePerformanceVisible</span>
+                <span class="method-start">42369 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsEnginePerformancetext</span>
+                <span class="method-start">42406 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsListPriceVisible</span>
+                <span class="method-start">42464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsListpricetext</span>
+                <span class="method-start">42502 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsMakeVisible</span>
+                <span class="method-start">42555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsMaketext</span>
+                <span class="method-start">42595 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsModelVisible</span>
+                <span class="method-start">42649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsModeltext</span>
+                <span class="method-start">42690 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsNextButtonVisible</span>
+                <span class="method-start">42744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsNextButtontext</span>
+                <span class="method-start">42782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsNumberOfSeatsVisible</span>
+                <span class="method-start">42839 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsNumberofSeatstext</span>
+                <span class="method-start">42875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsOpenDateOfCalenderButtonVisible</span>
+                <span class="method-start">42932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsOpenNextButtonVisible</span>
+                <span class="method-start">42972 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsOpenPrevButtonVisible</span>
+                <span class="method-start">43002 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsSelectMaker1Selectable</span>
+                <span class="method-start">43040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsSelectMaker2Selectable</span>
+                <span class="method-start">46543 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsSelectMakerSelectable</span>
+                <span class="method-start">49818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyListPriceSelection</span>
+                <span class="method-start">53123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsOpendateOfcalenderClickable</span>
+                <span class="method-start">54770 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsOpenNextClickable</span>
+                <span class="method-start">54975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsOpenPrevClickable</span>
+                <span class="method-start">55169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyIsNextClickable</span>
+                <span class="method-start">55371 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScripts.Motorcycle.EnterInsuranceData</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">navigateToEnterInsuranceData</span>
+                <span class="method-start">56819 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">isHobbiesCheckBoxVisible</span>
+                <span class="method-start">62083 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isHobbiesLabelVisible</span>
+                <span class="method-start">62218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNextButtonVisible</span>
+                <span class="method-start">62269 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isPictureLabelVisible</span>
+                <span class="method-start">62305 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isPrevButtonVisible</span>
+                <span class="method-start">62335 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isWebsiteLabelVisible</span>
+                <span class="method-start">62365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isWebsiteTextBoxVisible</span>
+                <span class="method-start">62397 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">selectPicture</span>
+                <span class="method-start">62427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validHobbiesSelection</span>
+                <span class="method-start">73921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyNextButtonText</span>
+                <span class="method-start">74179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyOnClickPrevButton</span>
+                <span class="method-start">74252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPrevButtonText</span>
+                <span class="method-start">74735 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScripts.Motorcycle.EnterProductData</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeProductData</span>
+                <span class="method-start">74814 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkNextLabelInsSum</span>
+                <span class="method-start">80106 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">damageInsuranceLabelVisible</span>
+                <span class="method-start">80285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isCalendarButtonClickable</span>
+                <span class="method-start">80333 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isDamageInsuranceDropDownVisible</span>
+                <span class="method-start">80545 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isInsuranceSumDropDownVisible</span>
+                <span class="method-start">80596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isInsuranceSumLabelVisible</span>
+                <span class="method-start">80647 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isNextButtonVisible</span>
+                <span class="method-start">80715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isOptionalProductTextBoxVisible</span>
+                <span class="method-start">80772 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isOptionalProductsLabelVisible</span>
+                <span class="method-start">80812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isPrevButtonVisible</span>
+                <span class="method-start">80844 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isStartDateLabelVisible</span>
+                <span class="method-start">80878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isStartDateTextBoxVisible</span>
+                <span class="method-start">80924 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validDamageInsuranceDropDownSelection</span>
+                <span class="method-start">80969 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validInsuranceDropDown</span>
+                <span class="method-start">81164 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyNextButtonText</span>
+                <span class="method-start">81371 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyOnClickPrevButton</span>
+                <span class="method-start">81423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPrevButtonText</span>
+                <span class="method-start">82629 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScripts.Motorcycle.SelectPriceOption</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">preClass</span>
+                <span class="method-start">82695 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyIsSelectpriceoptionVisible</span>
+                <span class="method-start">95337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsSelectpriceoptiontext</span>
+                <span class="method-start">95922 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsSelectpriceoptionClickable</span>
+                <span class="method-start">96434 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsSelectpriceoption1text</span>
+                <span class="method-start">97226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsSelectpriceoption1Clickable</span>
+                <span class="method-start">97488 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScripts.Motorcycle.SendQuote</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeProductData</span>
+                <span class="method-start">97652 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyIsCommentsVisible</span>
+                <span class="method-start">100661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsConfirmpasswordVisible</span>
+                <span class="method-start">100729 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsEmailVisible</span>
+                <span class="method-start">100768 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsMainpageVisible</span>
+                <span class="method-start">100812 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsNewautomobileinsuranceVisible</span>
+                <span class="method-start">100840 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsNewcamperinsuranceVisible</span>
+                <span class="method-start">100873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsNewtruckinsuranceVisible</span>
+                <span class="method-start">100901 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsPasswordVisible</span>
+                <span class="method-start">100932 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsPhoneVisible</span>
+                <span class="method-start">100963 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsPrevVisible</span>
+                <span class="method-start">100995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsSendemailVisible</span>
+                <span class="method-start">101025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyIsUsernameVisible</span>
+                <span class="method-start">101057 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterandVerifySendQuotesPage</span>
+                <span class="method-start">101089 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testScripts.Motorcycle.EnterVehicleData</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">109192 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">110397 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

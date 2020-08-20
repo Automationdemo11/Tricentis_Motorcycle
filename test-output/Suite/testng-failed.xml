@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testScripts.Motorcycle.EnterProductData">
+        <methods>
+          <include name="damageInsuranceOptionsVisible"/>
+          <include name="validStartDateText"/>
+          <include name="hobbiesOptionsVisible"/>
+          <include name="beforeProductData"/>
+          <include name="verifyOnClickPrevButton"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterProductData -->
+      <class name="testScripts.Motorcycle.EnterVehicleData">
+        <methods>
+          <include name="verifyIsNextClickable"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="navigateToEnterVehicleData"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterVehicleData -->
+      <class name="testScripts.Motorcycle.SendQuote">
+        <methods>
+          <include name="beforeProductData"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.SendQuote -->
+      <class name="testScripts.Motorcycle.SelectPriceOption">
+        <methods>
+          <include name="preClass"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.SelectPriceOption -->
+      <class name="testScripts.Motorcycle.EnterInsuranceData">
+        <methods>
+          <include name="hobbiesOptionsVisible"/>
+          <include name="selectPicture"/>
+          <include name="validWebsiteEntry"/>
+          <include name="invalidWebsitentry"/>
+          <include name="navigateToEnterInsuranceData"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterInsuranceData -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

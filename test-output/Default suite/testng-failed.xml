@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testScripts.Motorcycle.EnterProductData">
+        <methods>
+          <include name="isInsuranceSumLabelVisible"/>
+          <include name="isStartDateLabelVisible"/>
+          <include name="initialize"/>
+          <include name="checkNextLabelInsSum"/>
+          <include name="validStartDateText"/>
+          <include name="isPrevButtonVisible"/>
+          <include name="isStartDateTextBoxVisible"/>
+          <include name="launchBrowser"/>
+          <include name="isOptionalProductTextBoxVisible"/>
+          <include name="isCalendarButtonClickable"/>
+          <include name="damageInsuranceLabelVisible"/>
+          <include name="isDamageInsuranceDropDownVisible"/>
+          <include name="tearDown"/>
+          <include name="validInsuranceDropDown"/>
+          <include name="isNextButtonVisible"/>
+          <include name="isInsuranceSumDropDownVisible"/>
+          <include name="validDamageInsuranceDropDownSelection"/>
+          <include name="verifyPrevButtonText"/>
+          <include name="beforeProductData"/>
+          <include name="isOptionalProductsLabelVisible"/>
+          <include name="verifyNextButtonText"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterProductData -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
