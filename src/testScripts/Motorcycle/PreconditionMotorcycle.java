@@ -11,7 +11,6 @@ import libraries.Xls_Reader;
 
 public class PreconditionMotorcycle extends Driver {
 
-<<<<<<< HEAD
 	static WebDriver dr;
 	static pages.Motorcycle.EnterInsuranceData motorEnterInsuranceData;
 	static pages.Motorcycle.EnterVehicleData motorEnterVehicleData;
@@ -20,16 +19,6 @@ public class PreconditionMotorcycle extends Driver {
 	static pages.Motorcycle.SendQuote sendquote;
 	static Xls_Reader xl;
 	static pages.HomePage homePage;
-=======
-	protected static WebDriver dr;
-	pages.HomePage homePage;
-	pages.Motorcycle.EnterInsuranceData motorEnterInsuranceData;
-	pages.Motorcycle.EnterVehicleData motorEnterVehicleData;
-	pages.Motorcycle.EnterProductData motorEnterProductData;
-	pages.Motorcycle.SelectPriceOption selectpriceoption;
-	pages.Motorcycle.SendQuote sendquote;
-	
->>>>>>> af3df79d5ca505e6819af0d6e32521094b9e329f
 	
 	@BeforeTest
 	@Parameters("browser")

@@ -15,16 +15,16 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import driver.Driver;
+import com.sun.tools.xjc.Driver;
+
 import libraries.CommonLibrary;
 import pages.Automobile.EnterInsuranceData;
-import testScripts.Motorcycle.PreconditionMotorcycle;
 
-public class HomePage extends PreconditionMotorcycle {
+public class HomePage extends Driver {
 	
 	CommonLibrary lib = new CommonLibrary();
 	
-	
+	WebDriver dr;
 	pages.HomePage homePage;
 	EnterInsuranceData automobileEnterInsuranceData;
 	EnterInsuranceData truckEnterInsuranceData;
@@ -32,11 +32,11 @@ public class HomePage extends PreconditionMotorcycle {
 	EnterInsuranceData camperEnterInsuranceData;
 	
 	
-	@BeforeClass
+	@BeforeTest
 	@Parameters("browser")
 	public void launchBrowser(String browser)
 	{
-		//dr=lib.launchBrowser(browser);
+		dr=lib.launchBrowser(browser);
 		homePage=new pages.HomePage(dr);
 		automobileEnterInsuranceData= new EnterInsuranceData(dr);
 		truckEnterInsuranceData= new EnterInsuranceData(dr);
@@ -44,7 +44,10 @@ public class HomePage extends PreconditionMotorcycle {
 		camperEnterInsuranceData= new EnterInsuranceData(dr);
 	}
 	
-	
+	@AfterTest
+	public void closeBrowser() {
+		dr.quit();
+	}
 	
 	@Test(priority=-1)
 	public void verifyIsHomepageVisible()

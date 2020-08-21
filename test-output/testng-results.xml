@@ -1,26 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results skipped="0" failed="0" ignored="16" total="112" passed="96">
+<testng-results skipped="0" failed="0" ignored="16" total="128" passed="112">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="145561" started-at="2020-08-21T10:25:49Z" finished-at="2020-08-21T10:28:15Z">
+  <suite name="Suite" duration-ms="318618" started-at="2020-08-21T11:49:23Z" finished-at="2020-08-21T11:54:42Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="145561" started-at="2020-08-21T10:25:49Z" finished-at="2020-08-21T10:28:15Z">
+    <test name="HomePage" duration-ms="153525" started-at="2020-08-21T11:49:23Z" finished-at="2020-08-21T11:51:57Z">
+      <class name="testScripts.HomePage.HomePage">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.HomePage.HomePage@598067a5]" name="launchBrowser" is-config="true" duration-ms="29969" started-at="2020-08-21T11:49:23Z" finished-at="2020-08-21T11:49:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyIsHomepageVisible()[pri:-1, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsHomepageVisible" duration-ms="505" started-at="2020-08-21T11:49:53Z" finished-at="2020-08-21T11:49:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsHomepageVisible -->
+        <test-method status="PASS" signature="verifyHomepagetext()[pri:0, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyHomepagetext" duration-ms="970" started-at="2020-08-21T11:49:54Z" finished-at="2020-08-21T11:49:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepagetext -->
+        <test-method status="PASS" signature="verifyIsSearchsupportClickable()[pri:1, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsSearchsupportClickable" duration-ms="40641" started-at="2020-08-21T11:49:55Z" finished-at="2020-08-21T11:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsSearchsupportClickable -->
+        <test-method status="PASS" signature="verifyIsVisitsupportClickable()[pri:2, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsVisitsupportClickable" duration-ms="5215" started-at="2020-08-21T11:50:35Z" finished-at="2020-08-21T11:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsVisitsupportClickable -->
+        <test-method status="PASS" signature="verifyIsAutomobileClickable()[pri:3, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsAutomobileClickable" duration-ms="4123" started-at="2020-08-21T11:50:41Z" finished-at="2020-08-21T11:50:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsAutomobileClickable -->
+        <test-method status="PASS" signature="verifyIsTruckClickable()[pri:4, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsTruckClickable" duration-ms="2863" started-at="2020-08-21T11:50:45Z" finished-at="2020-08-21T11:50:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTruckClickable -->
+        <test-method status="PASS" signature="verifyIsMotorcycleClickable()[pri:5, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsMotorcycleClickable" duration-ms="2826" started-at="2020-08-21T11:50:48Z" finished-at="2020-08-21T11:50:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsMotorcycleClickable -->
+        <test-method status="PASS" signature="verifyIsCamperClickable()[pri:6, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsCamperClickable" duration-ms="3980" started-at="2020-08-21T11:50:50Z" finished-at="2020-08-21T11:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsCamperClickable -->
+        <test-method status="PASS" signature="verifyIsTricentis_aboutClickable()[pri:7, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsTricentis_aboutClickable" duration-ms="18570" started-at="2020-08-21T11:50:54Z" finished-at="2020-08-21T11:51:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTricentis_aboutClickable -->
+        <test-method status="PASS" signature="verifyIsTricentis_productsClickable()[pri:8, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsTricentis_productsClickable" duration-ms="5750" started-at="2020-08-21T11:51:13Z" finished-at="2020-08-21T11:51:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTricentis_productsClickable -->
+        <test-method status="PASS" signature="verifyIsTricentis_eventsClickable()[pri:9, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsTricentis_eventsClickable" duration-ms="8287" started-at="2020-08-21T11:51:19Z" finished-at="2020-08-21T11:51:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTricentis_eventsClickable -->
+        <test-method status="PASS" signature="verifyIsTricentis_resourcesClickable()[pri:10, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsTricentis_resourcesClickable" duration-ms="6378" started-at="2020-08-21T11:51:27Z" finished-at="2020-08-21T11:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTricentis_resourcesClickable -->
+        <test-method status="PASS" signature="verifyIsTricentis_servicesClickable()[pri:11, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsTricentis_servicesClickable" duration-ms="5470" started-at="2020-08-21T11:51:33Z" finished-at="2020-08-21T11:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTricentis_servicesClickable -->
+        <test-method status="PASS" signature="verifyIsNav_facebookClickable()[pri:12, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsNav_facebookClickable" duration-ms="4908" started-at="2020-08-21T11:51:39Z" finished-at="2020-08-21T11:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsNav_facebookClickable -->
+        <test-method status="PASS" signature="verifyIsNav_twitterClickable()[pri:13, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsNav_twitterClickable" duration-ms="5508" started-at="2020-08-21T11:51:44Z" finished-at="2020-08-21T11:51:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsNav_twitterClickable -->
+        <test-method status="PASS" signature="verifyIsNav_googleClickable()[pri:14, instance:testScripts.HomePage.HomePage@598067a5]" name="verifyIsNav_googleClickable" duration-ms="6207" started-at="2020-08-21T11:51:49Z" finished-at="2020-08-21T11:51:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsNav_googleClickable -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScripts.HomePage.HomePage@598067a5]" name="closeBrowser" is-config="true" duration-ms="1271" started-at="2020-08-21T11:51:55Z" finished-at="2020-08-21T11:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.HomePage.HomePage -->
+    </test> <!-- HomePage -->
+    <test name="Motorcycle" duration-ms="165064" started-at="2020-08-21T11:51:57Z" finished-at="2020-08-21T11:54:42Z">
       <class name="testScripts.Motorcycle.EnterProductData">
-        <test-method status="PASS" signature="beforeProductData()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="beforeProductData" is-config="true" duration-ms="5136" started-at="2020-08-21T10:27:51Z" finished-at="2020-08-21T10:27:56Z">
+        <test-method status="PASS" signature="beforeProductData()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="beforeProductData" is-config="true" duration-ms="5107" started-at="2020-08-21T11:54:15Z" finished-at="2020-08-21T11:54:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeProductData -->
-        <test-method status="PASS" signature="checkNextLabelInsSum()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="checkNextLabelInsSum" duration-ms="84" started-at="2020-08-21T10:27:56Z" finished-at="2020-08-21T10:27:56Z">
+        <test-method status="PASS" signature="checkNextLabelInsSum()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="checkNextLabelInsSum" duration-ms="127" started-at="2020-08-21T11:54:20Z" finished-at="2020-08-21T11:54:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNextLabelInsSum -->
-        <test-method status="PASS" signature="damageInsuranceLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="damageInsuranceLabelVisible" duration-ms="18" started-at="2020-08-21T10:27:56Z" finished-at="2020-08-21T10:27:56Z">
+        <test-method status="PASS" signature="damageInsuranceLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="damageInsuranceLabelVisible" duration-ms="27" started-at="2020-08-21T11:54:20Z" finished-at="2020-08-21T11:54:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- damageInsuranceLabelVisible -->
-        <test-method status="PASS" signature="damageInsuranceOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="damageInsuranceOptionsVisible" duration-ms="197" started-at="2020-08-21T10:27:56Z" data-provider="damageInsuranceOptions" finished-at="2020-08-21T10:27:56Z">
+        <test-method status="PASS" signature="damageInsuranceOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="damageInsuranceOptionsVisible" duration-ms="327" started-at="2020-08-21T11:54:20Z" data-provider="damageInsuranceOptions" finished-at="2020-08-21T11:54:20Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +113,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- damageInsuranceOptionsVisible -->
-        <test-method status="PASS" signature="damageInsuranceOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="damageInsuranceOptionsVisible" duration-ms="144" started-at="2020-08-21T10:27:56Z" data-provider="damageInsuranceOptions" finished-at="2020-08-21T10:27:57Z">
+        <test-method status="PASS" signature="damageInsuranceOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="damageInsuranceOptionsVisible" duration-ms="215" started-at="2020-08-21T11:54:20Z" data-provider="damageInsuranceOptions" finished-at="2020-08-21T11:54:21Z">
           <params>
             <param index="0">
               <value>
@@ -42,7 +124,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- damageInsuranceOptionsVisible -->
-        <test-method status="PASS" signature="damageInsuranceOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="damageInsuranceOptionsVisible" duration-ms="147" started-at="2020-08-21T10:27:57Z" data-provider="damageInsuranceOptions" finished-at="2020-08-21T10:27:57Z">
+        <test-method status="PASS" signature="damageInsuranceOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="damageInsuranceOptionsVisible" duration-ms="212" started-at="2020-08-21T11:54:21Z" data-provider="damageInsuranceOptions" finished-at="2020-08-21T11:54:21Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +135,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- damageInsuranceOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="hobbiesOptionsVisible" duration-ms="178" started-at="2020-08-21T10:27:57Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T10:27:57Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="hobbiesOptionsVisible" duration-ms="251" started-at="2020-08-21T11:54:21Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T11:54:21Z">
           <params>
             <param index="0">
               <value>
@@ -64,7 +146,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="hobbiesOptionsVisible" duration-ms="142" started-at="2020-08-21T10:27:57Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T10:27:57Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="hobbiesOptionsVisible" duration-ms="199" started-at="2020-08-21T11:54:21Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T11:54:21Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +157,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="hobbiesOptionsVisible" duration-ms="141" started-at="2020-08-21T10:27:57Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T10:27:57Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="hobbiesOptionsVisible" duration-ms="201" started-at="2020-08-21T11:54:21Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T11:54:22Z">
           <params>
             <param index="0">
               <value>
@@ -86,7 +168,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="hobbiesOptionsVisible" duration-ms="139" started-at="2020-08-21T10:27:57Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T10:27:57Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="hobbiesOptionsVisible" duration-ms="200" started-at="2020-08-21T11:54:22Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T11:54:22Z">
           <params>
             <param index="0">
               <value>
@@ -97,7 +179,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="hobbiesOptionsVisible" duration-ms="140" started-at="2020-08-21T10:27:57Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="hobbiesOptionsVisible" duration-ms="336" started-at="2020-08-21T11:54:22Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T11:54:22Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +190,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="hobbiesOptionsVisible" duration-ms="184" started-at="2020-08-21T10:27:58Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="hobbiesOptionsVisible" duration-ms="234" started-at="2020-08-21T11:54:22Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T11:54:22Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +201,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="hobbiesOptionsVisible" duration-ms="145" started-at="2020-08-21T10:27:58Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="hobbiesOptionsVisible" duration-ms="214" started-at="2020-08-21T11:54:22Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T11:54:23Z">
           <params>
             <param index="0">
               <value>
@@ -130,7 +212,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="hobbiesOptionsVisible" duration-ms="141" started-at="2020-08-21T10:27:58Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="hobbiesOptionsVisible" duration-ms="196" started-at="2020-08-21T11:54:23Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T11:54:23Z">
           <params>
             <param index="0">
               <value>
@@ -141,7 +223,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="hobbiesOptionsVisible" duration-ms="140" started-at="2020-08-21T10:27:58Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="hobbiesOptionsVisible" duration-ms="186" started-at="2020-08-21T11:54:23Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T11:54:23Z">
           <params>
             <param index="0">
               <value>
@@ -152,55 +234,55 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="isCalendarButtonClickable()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="isCalendarButtonClickable" duration-ms="94" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="isCalendarButtonClickable()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="isCalendarButtonClickable" duration-ms="141" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isCalendarButtonClickable -->
-        <test-method status="PASS" signature="isDamageInsuranceDropDownVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="isDamageInsuranceDropDownVisible" duration-ms="30" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="isDamageInsuranceDropDownVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="isDamageInsuranceDropDownVisible" duration-ms="27" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isDamageInsuranceDropDownVisible -->
-        <test-method status="PASS" signature="isInsuranceSumDropDownVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="isInsuranceSumDropDownVisible" duration-ms="17" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="isInsuranceSumDropDownVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="isInsuranceSumDropDownVisible" duration-ms="30" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isInsuranceSumDropDownVisible -->
-        <test-method status="PASS" signature="isInsuranceSumLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="isInsuranceSumLabelVisible" duration-ms="20" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="isInsuranceSumLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="isInsuranceSumLabelVisible" duration-ms="30" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isInsuranceSumLabelVisible -->
-        <test-method status="PASS" signature="isNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="isNextButtonVisible" duration-ms="18" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="isNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="isNextButtonVisible" duration-ms="44" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isNextButtonVisible -->
-        <test-method status="PASS" signature="isOptionalProductTextBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="isOptionalProductTextBoxVisible" duration-ms="22" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="isOptionalProductTextBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="isOptionalProductTextBoxVisible" duration-ms="29" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isOptionalProductTextBoxVisible -->
-        <test-method status="PASS" signature="isOptionalProductsLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="isOptionalProductsLabelVisible" duration-ms="17" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="isOptionalProductsLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="isOptionalProductsLabelVisible" duration-ms="29" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isOptionalProductsLabelVisible -->
-        <test-method status="PASS" signature="isPrevButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="isPrevButtonVisible" duration-ms="19" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="isPrevButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="isPrevButtonVisible" duration-ms="39" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPrevButtonVisible -->
-        <test-method status="PASS" signature="isStartDateLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="isStartDateLabelVisible" duration-ms="38" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="isStartDateLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="isStartDateLabelVisible" duration-ms="22" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isStartDateLabelVisible -->
-        <test-method status="PASS" signature="isStartDateTextBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="isStartDateTextBoxVisible" duration-ms="18" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:58Z">
+        <test-method status="PASS" signature="isStartDateTextBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="isStartDateTextBoxVisible" duration-ms="20" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isStartDateTextBoxVisible -->
-        <test-method status="PASS" signature="validDamageInsuranceDropDownSelection()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="validDamageInsuranceDropDownSelection" duration-ms="103" started-at="2020-08-21T10:27:58Z" finished-at="2020-08-21T10:27:59Z">
+        <test-method status="PASS" signature="validDamageInsuranceDropDownSelection()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="validDamageInsuranceDropDownSelection" duration-ms="135" started-at="2020-08-21T11:54:23Z" finished-at="2020-08-21T11:54:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validDamageInsuranceDropDownSelection -->
-        <test-method status="PASS" signature="validInsuranceDropDown()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="validInsuranceDropDown" duration-ms="84" started-at="2020-08-21T10:27:59Z" finished-at="2020-08-21T10:27:59Z">
+        <test-method status="PASS" signature="validInsuranceDropDown()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="validInsuranceDropDown" duration-ms="127" started-at="2020-08-21T11:54:24Z" finished-at="2020-08-21T11:54:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validInsuranceDropDown -->
-        <test-method status="PASS" signature="validStartDateText(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="validStartDateText" duration-ms="320" started-at="2020-08-21T10:27:59Z" data-provider="startDateValid" finished-at="2020-08-21T10:27:59Z">
+        <test-method status="PASS" signature="validStartDateText(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="validStartDateText" duration-ms="402" started-at="2020-08-21T11:54:24Z" data-provider="startDateValid" finished-at="2020-08-21T11:54:24Z">
           <params>
             <param index="0">
               <value>
@@ -211,276 +293,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validStartDateText -->
-        <test-method status="PASS" signature="verifyNextButtonText()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="verifyNextButtonText" duration-ms="33" started-at="2020-08-21T10:27:59Z" finished-at="2020-08-21T10:27:59Z">
+        <test-method status="PASS" signature="verifyNextButtonText()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="verifyNextButtonText" duration-ms="36" started-at="2020-08-21T11:54:24Z" finished-at="2020-08-21T11:54:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNextButtonText -->
-        <test-method status="PASS" signature="verifyOnClickPrevButton()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="verifyOnClickPrevButton" duration-ms="210" started-at="2020-08-21T10:27:59Z" finished-at="2020-08-21T10:27:59Z">
+        <test-method status="PASS" signature="verifyOnClickPrevButton()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="verifyOnClickPrevButton" duration-ms="301" started-at="2020-08-21T11:54:24Z" finished-at="2020-08-21T11:54:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOnClickPrevButton -->
-        <test-method status="PASS" signature="verifyPrevButtonText()[pri:0, instance:testScripts.Motorcycle.EnterProductData@6a41eaa2]" name="verifyPrevButtonText" duration-ms="38" started-at="2020-08-21T10:27:59Z" finished-at="2020-08-21T10:27:59Z">
-=======
-<testng-results skipped="11" failed="18" total="101" passed="72">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Suite" duration-ms="169219" started-at="2020-08-21T09:45:19Z" finished-at="2020-08-21T09:48:08Z">
-    <groups>
-    </groups>
-    <test name="Test" duration-ms="169219" started-at="2020-08-21T09:45:19Z" finished-at="2020-08-21T09:48:08Z">
-      <class name="testScripts.Motorcycle.EnterProductData">
-        <test-method status="PASS" signature="beforeProductData()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="beforeProductData" is-config="true" duration-ms="5217" started-at="2020-08-21T15:17:53Z" finished-at="2020-08-21T15:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeProductData -->
-        <test-method status="PASS" signature="checkNextLabelInsSum()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="checkNextLabelInsSum" duration-ms="173" started-at="2020-08-21T15:17:58Z" finished-at="2020-08-21T15:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkNextLabelInsSum -->
-        <test-method status="PASS" signature="damageInsuranceLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="damageInsuranceLabelVisible" duration-ms="43" started-at="2020-08-21T15:17:58Z" finished-at="2020-08-21T15:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- damageInsuranceLabelVisible -->
-        <test-method status="SKIP" signature="damageInsuranceOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="damageInsuranceOptionsVisible" duration-ms="0" started-at="2020-08-21T15:17:58Z" data-provider="damageInsuranceOptions" finished-at="2020-08-21T15:17:58Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.damageInsuranceOptions() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.damageInsuranceOptions() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- damageInsuranceOptionsVisible -->
-        <test-method status="SKIP" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="hobbiesOptionsVisible" duration-ms="0" started-at="2020-08-21T15:17:58Z" data-provider="insuranceSumOptions" finished-at="2020-08-21T15:17:58Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.insuranceSumOptions() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.insuranceSumOptions() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="isCalendarButtonClickable()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="isCalendarButtonClickable" duration-ms="218" started-at="2020-08-21T15:17:58Z" finished-at="2020-08-21T15:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isCalendarButtonClickable -->
-        <test-method status="PASS" signature="isDamageInsuranceDropDownVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="isDamageInsuranceDropDownVisible" duration-ms="40" started-at="2020-08-21T15:17:58Z" finished-at="2020-08-21T15:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isDamageInsuranceDropDownVisible -->
-        <test-method status="PASS" signature="isInsuranceSumDropDownVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="isInsuranceSumDropDownVisible" duration-ms="28" started-at="2020-08-21T15:17:58Z" finished-at="2020-08-21T15:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isInsuranceSumDropDownVisible -->
-        <test-method status="PASS" signature="isInsuranceSumLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="isInsuranceSumLabelVisible" duration-ms="36" started-at="2020-08-21T15:17:58Z" finished-at="2020-08-21T15:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isInsuranceSumLabelVisible -->
-        <test-method status="PASS" signature="isNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="isNextButtonVisible" duration-ms="49" started-at="2020-08-21T15:17:58Z" finished-at="2020-08-21T15:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isNextButtonVisible -->
-        <test-method status="PASS" signature="isOptionalProductTextBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="isOptionalProductTextBoxVisible" duration-ms="39" started-at="2020-08-21T15:17:58Z" finished-at="2020-08-21T15:17:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isOptionalProductTextBoxVisible -->
-        <test-method status="PASS" signature="isOptionalProductsLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="isOptionalProductsLabelVisible" duration-ms="25" started-at="2020-08-21T15:17:58Z" finished-at="2020-08-21T15:17:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isOptionalProductsLabelVisible -->
-        <test-method status="PASS" signature="isPrevButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="isPrevButtonVisible" duration-ms="32" started-at="2020-08-21T15:17:59Z" finished-at="2020-08-21T15:17:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isPrevButtonVisible -->
-        <test-method status="PASS" signature="isStartDateLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="isStartDateLabelVisible" duration-ms="28" started-at="2020-08-21T15:17:59Z" finished-at="2020-08-21T15:17:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isStartDateLabelVisible -->
-        <test-method status="PASS" signature="isStartDateTextBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="isStartDateTextBoxVisible" duration-ms="32" started-at="2020-08-21T15:17:59Z" finished-at="2020-08-21T15:17:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isStartDateTextBoxVisible -->
-        <test-method status="PASS" signature="validDamageInsuranceDropDownSelection()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="validDamageInsuranceDropDownSelection" duration-ms="202" started-at="2020-08-21T15:17:59Z" finished-at="2020-08-21T15:17:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validDamageInsuranceDropDownSelection -->
-        <test-method status="PASS" signature="validInsuranceDropDown()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="validInsuranceDropDown" duration-ms="189" started-at="2020-08-21T15:17:59Z" finished-at="2020-08-21T15:17:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validInsuranceDropDown -->
-        <test-method status="SKIP" signature="validStartDateText(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="validStartDateText" duration-ms="0" started-at="2020-08-21T15:17:59Z" data-provider="startDateValid" finished-at="2020-08-21T15:17:59Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.startDateValid() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.startDateValid() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validStartDateText -->
-        <test-method status="PASS" signature="verifyNextButtonText()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="verifyNextButtonText" duration-ms="54" started-at="2020-08-21T15:17:59Z" finished-at="2020-08-21T15:17:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNextButtonText -->
-        <test-method status="FAIL" signature="verifyOnClickPrevButton()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="verifyOnClickPrevButton" duration-ms="1155" started-at="2020-08-21T15:17:59Z" finished-at="2020-08-21T15:18:00Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button id="preventerinsurancedata" name="Prev (Enter Insurance Data)" type="button" class="prev">...</button> is not clickable at point (392, 415). Other element would receive the click: <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="position: absolute; top: 362.594px; left: 345.5px; z-index: 1; display: block; width: 290px;">...</div>
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'A', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 53e5853294936170584dae2af8214cf2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="preventerinsurancedata" name="Prev (Enter Insurance Data)" type="button" class="prev">...</button> is not clickable at point (392, 415). Other element would receive the click: <div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" style="position: absolute; top: 362.594px; left: 345.5px; z-index: 1; display: block; width: 290px;">...</div>
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'A', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 53e5853294936170584dae2af8214cf2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at pages.Motorcycle.EnterProductData.ClickPrev(EnterProductData.java:153)
-	at testScripts.Motorcycle.EnterProductData.verifyOnClickPrevButton(EnterProductData.java:118)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOnClickPrevButton -->
-        <test-method status="PASS" signature="verifyPrevButtonText()[pri:0, instance:testScripts.Motorcycle.EnterProductData@26653222]" name="verifyPrevButtonText" duration-ms="79" started-at="2020-08-21T15:18:00Z" finished-at="2020-08-21T15:18:00Z">
->>>>>>> af3df79d5ca505e6819af0d6e32521094b9e329f
+        <test-method status="PASS" signature="verifyPrevButtonText()[pri:0, instance:testScripts.Motorcycle.EnterProductData@64bf3bbf]" name="verifyPrevButtonText" duration-ms="71" started-at="2020-08-21T11:54:24Z" finished-at="2020-08-21T11:54:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPrevButtonText -->
       </class> <!-- testScripts.Motorcycle.EnterProductData -->
       <class name="testScripts.Motorcycle.EnterVehicleData">
-<<<<<<< HEAD
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="initialize" is-config="true" duration-ms="17" started-at="2020-08-21T10:25:49Z" finished-at="2020-08-21T10:25:49Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="initialize" is-config="true" duration-ms="31" started-at="2020-08-21T11:49:23Z" finished-at="2020-08-21T11:49:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="launchBrowser" is-config="true" duration-ms="35959" started-at="2020-08-21T10:25:49Z" finished-at="2020-08-21T10:26:25Z">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="launchBrowser" is-config="true" duration-ms="48151" started-at="2020-08-21T11:51:57Z" finished-at="2020-08-21T11:52:45Z">
           <params>
             <param index="0">
               <value>
@@ -491,201 +322,201 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="navigateToEnterVehicleData()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="navigateToEnterVehicleData" is-config="true" duration-ms="3046" started-at="2020-08-21T10:26:25Z" finished-at="2020-08-21T10:26:28Z">
+        <test-method status="PASS" signature="navigateToEnterVehicleData()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="navigateToEnterVehicleData" is-config="true" duration-ms="7042" started-at="2020-08-21T11:52:45Z" finished-at="2020-08-21T11:52:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToEnterVehicleData -->
-        <test-method status="PASS" signature="verifyAnnualMileageSelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyAnnualMileageSelection" duration-ms="924" started-at="2020-08-21T10:26:28Z" finished-at="2020-08-21T10:26:29Z">
+        <test-method status="PASS" signature="verifyAnnualMileageSelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyAnnualMileageSelection" duration-ms="1251" started-at="2020-08-21T11:52:52Z" finished-at="2020-08-21T11:52:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAnnualMileageSelection -->
-        <test-method status="PASS" signature="verifyCylinderCapacitySelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyCylinderCapacitySelection" duration-ms="602" started-at="2020-08-21T10:26:29Z" finished-at="2020-08-21T10:26:30Z">
+        <test-method status="PASS" signature="verifyCylinderCapacitySelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyCylinderCapacitySelection" duration-ms="818" started-at="2020-08-21T11:52:53Z" finished-at="2020-08-21T11:52:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCylinderCapacitySelection -->
-        <test-method status="PASS" signature="verifyDateOfmanufacture()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyDateOfmanufacture" duration-ms="532" started-at="2020-08-21T10:26:30Z" finished-at="2020-08-21T10:26:30Z">
+        <test-method status="PASS" signature="verifyDateOfmanufacture()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyDateOfmanufacture" duration-ms="730" started-at="2020-08-21T11:52:54Z" finished-at="2020-08-21T11:52:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDateOfmanufacture -->
-        <test-method status="PASS" signature="verifyEnginePerformanceSelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyEnginePerformanceSelection" duration-ms="598" started-at="2020-08-21T10:26:30Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyEnginePerformanceSelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyEnginePerformanceSelection" duration-ms="859" started-at="2020-08-21T11:52:55Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEnginePerformanceSelection -->
-        <test-method status="PASS" signature="verifyIsAnnualMileageVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsAnnualMileageVisible" duration-ms="20" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsAnnualMileageVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsAnnualMileageVisible" duration-ms="23" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsAnnualMileageVisible -->
-        <test-method status="PASS" signature="verifyIsAnnualMileagetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsAnnualMileagetext" duration-ms="31" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsAnnualMileagetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsAnnualMileagetext" duration-ms="36" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsAnnualMileagetext -->
-        <test-method status="PASS" signature="verifyIsCylinderCapacityVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsCylinderCapacityVisible" duration-ms="15" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsCylinderCapacityVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsCylinderCapacityVisible" duration-ms="24" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsCylinderCapacityVisible -->
-        <test-method status="PASS" signature="verifyIsCylinderCapacitytext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsCylinderCapacitytext" duration-ms="32" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsCylinderCapacitytext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsCylinderCapacitytext" duration-ms="61" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsCylinderCapacitytext -->
-        <test-method status="PASS" signature="verifyIsDateOfManufacturetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsDateOfManufacturetext" duration-ms="31" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsDateOfManufacturetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsDateOfManufacturetext" duration-ms="74" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsDateOfManufacturetext -->
-        <test-method status="PASS" signature="verifyIsEnginePerformanceVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsEnginePerformanceVisible" duration-ms="17" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsEnginePerformanceVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsEnginePerformanceVisible" duration-ms="22" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsEnginePerformanceVisible -->
-        <test-method status="PASS" signature="verifyIsEnginePerformancetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsEnginePerformancetext" duration-ms="45" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsEnginePerformancetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsEnginePerformancetext" duration-ms="35" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsEnginePerformancetext -->
-        <test-method status="PASS" signature="verifyIsListPriceVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsListPriceVisible" duration-ms="23" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsListPriceVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsListPriceVisible" duration-ms="16" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsListPriceVisible -->
-        <test-method status="PASS" signature="verifyIsListpricetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsListpricetext" duration-ms="37" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsListpricetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsListpricetext" duration-ms="32" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsListpricetext -->
-        <test-method status="PASS" signature="verifyIsMakeVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsMakeVisible" duration-ms="21" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsMakeVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsMakeVisible" duration-ms="22" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsMakeVisible -->
-        <test-method status="PASS" signature="verifyIsMaketext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsMaketext" duration-ms="35" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsMaketext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsMaketext" duration-ms="63" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsMaketext -->
-        <test-method status="PASS" signature="verifyIsModelVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsModelVisible" duration-ms="18" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsModelVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsModelVisible" duration-ms="18" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsModelVisible -->
-        <test-method status="PASS" signature="verifyIsModeltext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsModeltext" duration-ms="36" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsModeltext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsModeltext" duration-ms="32" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsModeltext -->
-        <test-method status="PASS" signature="verifyIsNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsNextButtonVisible" duration-ms="15" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsNextButtonVisible" duration-ms="21" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsNextButtonVisible -->
-        <test-method status="PASS" signature="verifyIsNextButtontext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsNextButtontext" duration-ms="28" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsNextButtontext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsNextButtontext" duration-ms="32" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsNextButtontext -->
-        <test-method status="PASS" signature="verifyIsNumberOfSeatsVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsNumberOfSeatsVisible" duration-ms="16" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsNumberOfSeatsVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsNumberOfSeatsVisible" duration-ms="25" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsNumberOfSeatsVisible -->
-        <test-method status="PASS" signature="verifyIsNumberofSeatstext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsNumberofSeatstext" duration-ms="29" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsNumberofSeatstext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsNumberofSeatstext" duration-ms="46" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsNumberofSeatstext -->
-        <test-method status="PASS" signature="verifyIsOpenDateOfCalenderButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsOpenDateOfCalenderButtonVisible" duration-ms="14" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsOpenDateOfCalenderButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsOpenDateOfCalenderButtonVisible" duration-ms="20" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsOpenDateOfCalenderButtonVisible -->
-        <test-method status="PASS" signature="verifyIsOpenNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsOpenNextButtonVisible" duration-ms="16" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsOpenNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsOpenNextButtonVisible" duration-ms="20" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsOpenNextButtonVisible -->
-        <test-method status="PASS" signature="verifyIsOpenPrevButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsOpenPrevButtonVisible" duration-ms="17" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:31Z">
+        <test-method status="PASS" signature="verifyIsOpenPrevButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsOpenPrevButtonVisible" duration-ms="35" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsOpenPrevButtonVisible -->
-        <test-method status="PASS" signature="verifyIsSelectMaker1Selectable()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsSelectMaker1Selectable" duration-ms="3118" started-at="2020-08-21T10:26:31Z" finished-at="2020-08-21T10:26:34Z">
+        <test-method status="PASS" signature="verifyIsSelectMaker1Selectable()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsSelectMaker1Selectable" duration-ms="3157" started-at="2020-08-21T11:52:56Z" finished-at="2020-08-21T11:52:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSelectMaker1Selectable -->
-        <test-method status="PASS" signature="verifyIsSelectMaker2Selectable()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsSelectMaker2Selectable" duration-ms="3174" started-at="2020-08-21T10:26:34Z" finished-at="2020-08-21T10:26:38Z">
+        <test-method status="PASS" signature="verifyIsSelectMaker2Selectable()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsSelectMaker2Selectable" duration-ms="3255" started-at="2020-08-21T11:52:59Z" finished-at="2020-08-21T11:53:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSelectMaker2Selectable -->
-        <test-method status="PASS" signature="verifyIsSelectMakerSelectable()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyIsSelectMakerSelectable" duration-ms="3217" started-at="2020-08-21T10:26:38Z" finished-at="2020-08-21T10:26:41Z">
+        <test-method status="PASS" signature="verifyIsSelectMakerSelectable()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyIsSelectMakerSelectable" duration-ms="3191" started-at="2020-08-21T11:53:03Z" finished-at="2020-08-21T11:53:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSelectMakerSelectable -->
-        <test-method status="PASS" signature="verifyListPriceSelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="verifyListPriceSelection" duration-ms="823" started-at="2020-08-21T10:26:41Z" finished-at="2020-08-21T10:26:42Z">
+        <test-method status="PASS" signature="verifyListPriceSelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="verifyListPriceSelection" duration-ms="1226" started-at="2020-08-21T11:53:06Z" finished-at="2020-08-21T11:53:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyListPriceSelection -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="closeBrowser" is-config="true" duration-ms="804" started-at="2020-08-21T10:28:14Z" finished-at="2020-08-21T10:28:15Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="closeBrowser" is-config="true" duration-ms="972" started-at="2020-08-21T11:54:41Z" finished-at="2020-08-21T11:54:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@6a4f787b]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-21T10:28:15Z" finished-at="2020-08-21T10:28:15Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@192b07fd]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-21T11:54:42Z" finished-at="2020-08-21T11:54:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testScripts.Motorcycle.EnterVehicleData -->
       <class name="testScripts.Motorcycle.SelectPriceOption">
-        <test-method status="PASS" signature="preClass()[pri:0, instance:testScripts.Motorcycle.SelectPriceOption@7cd62f43]" name="preClass" is-config="true" duration-ms="10112" started-at="2020-08-21T10:27:59Z" finished-at="2020-08-21T10:28:09Z">
+        <test-method status="PASS" signature="preClass()[pri:0, instance:testScripts.Motorcycle.SelectPriceOption@55d56113]" name="preClass" is-config="true" duration-ms="11501" started-at="2020-08-21T11:54:25Z" finished-at="2020-08-21T11:54:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preClass -->
-        <test-method status="PASS" signature="verifyIsSelectpriceoptionVisible()[pri:0, instance:testScripts.Motorcycle.SelectPriceOption@7cd62f43]" name="verifyIsSelectpriceoptionVisible" duration-ms="277" started-at="2020-08-21T10:28:09Z" finished-at="2020-08-21T10:28:10Z">
+        <test-method status="PASS" signature="verifyIsSelectpriceoptionVisible()[pri:0, instance:testScripts.Motorcycle.SelectPriceOption@55d56113]" name="verifyIsSelectpriceoptionVisible" duration-ms="327" started-at="2020-08-21T11:54:36Z" finished-at="2020-08-21T11:54:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSelectpriceoptionVisible -->
       </class> <!-- testScripts.Motorcycle.SelectPriceOption -->
       <class name="testScripts.Motorcycle.SendQuote">
-        <test-method status="PASS" signature="beforeProductData()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="beforeProductData" is-config="true" duration-ms="3000" started-at="2020-08-21T10:28:10Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="beforeProductData()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="beforeProductData" is-config="true" duration-ms="3001" started-at="2020-08-21T11:54:36Z" finished-at="2020-08-21T11:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeProductData -->
-        <test-method status="PASS" signature="verifyIsCommentsVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsCommentsVisible" duration-ms="45" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsCommentsVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsCommentsVisible" duration-ms="19" started-at="2020-08-21T11:54:39Z" finished-at="2020-08-21T11:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsCommentsVisible -->
-        <test-method status="PASS" signature="verifyIsConfirmpasswordVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsConfirmpasswordVisible" duration-ms="27" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsConfirmpasswordVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsConfirmpasswordVisible" duration-ms="25" started-at="2020-08-21T11:54:39Z" finished-at="2020-08-21T11:54:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsConfirmpasswordVisible -->
-        <test-method status="PASS" signature="verifyIsEmailVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsEmailVisible" duration-ms="17" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsEmailVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsEmailVisible" duration-ms="27" started-at="2020-08-21T11:54:39Z" finished-at="2020-08-21T11:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsEmailVisible -->
-        <test-method status="PASS" signature="verifyIsMainpageVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsMainpageVisible" duration-ms="14" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsMainpageVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsMainpageVisible" duration-ms="26" started-at="2020-08-21T11:54:40Z" finished-at="2020-08-21T11:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsMainpageVisible -->
-        <test-method status="PASS" signature="verifyIsNewautomobileinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsNewautomobileinsuranceVisible" duration-ms="14" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsNewautomobileinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsNewautomobileinsuranceVisible" duration-ms="33" started-at="2020-08-21T11:54:40Z" finished-at="2020-08-21T11:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsNewautomobileinsuranceVisible -->
-        <test-method status="PASS" signature="verifyIsNewcamperinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsNewcamperinsuranceVisible" duration-ms="14" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsNewcamperinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsNewcamperinsuranceVisible" duration-ms="20" started-at="2020-08-21T11:54:40Z" finished-at="2020-08-21T11:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsNewcamperinsuranceVisible -->
-        <test-method status="PASS" signature="verifyIsNewtruckinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsNewtruckinsuranceVisible" duration-ms="14" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsNewtruckinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsNewtruckinsuranceVisible" duration-ms="22" started-at="2020-08-21T11:54:40Z" finished-at="2020-08-21T11:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsNewtruckinsuranceVisible -->
-        <test-method status="PASS" signature="verifyIsPasswordVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsPasswordVisible" duration-ms="13" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsPasswordVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsPasswordVisible" duration-ms="13" started-at="2020-08-21T11:54:40Z" finished-at="2020-08-21T11:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsPasswordVisible -->
-        <test-method status="PASS" signature="verifyIsPhoneVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsPhoneVisible" duration-ms="13" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsPhoneVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsPhoneVisible" duration-ms="15" started-at="2020-08-21T11:54:40Z" finished-at="2020-08-21T11:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsPhoneVisible -->
-        <test-method status="PASS" signature="verifyIsPrevVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsPrevVisible" duration-ms="14" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsPrevVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsPrevVisible" duration-ms="18" started-at="2020-08-21T11:54:40Z" finished-at="2020-08-21T11:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsPrevVisible -->
-        <test-method status="PASS" signature="verifyIsSendemailVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsSendemailVisible" duration-ms="15" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsSendemailVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsSendemailVisible" duration-ms="18" started-at="2020-08-21T11:54:40Z" finished-at="2020-08-21T11:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSendemailVisible -->
-        <test-method status="PASS" signature="verifyIsUsernameVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6d4b1c02]" name="verifyIsUsernameVisible" duration-ms="14" started-at="2020-08-21T10:28:13Z" finished-at="2020-08-21T10:28:13Z">
+        <test-method status="PASS" signature="verifyIsUsernameVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@148080bb]" name="verifyIsUsernameVisible" duration-ms="15" started-at="2020-08-21T11:54:40Z" finished-at="2020-08-21T11:54:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsUsernameVisible -->
       </class> <!-- testScripts.Motorcycle.SendQuote -->
       <class name="testScripts.Motorcycle.EnterInsuranceData">
-        <test-method status="PASS" signature="navigateToEnterInsuranceData()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="navigateToEnterInsuranceData" is-config="true" duration-ms="3196" started-at="2020-08-21T10:26:42Z" finished-at="2020-08-21T10:26:45Z">
+        <test-method status="PASS" signature="navigateToEnterInsuranceData()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="navigateToEnterInsuranceData" is-config="true" duration-ms="167" started-at="2020-08-21T11:53:07Z" finished-at="2020-08-21T11:53:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToEnterInsuranceData -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="hobbiesOptionsVisible" duration-ms="23" started-at="2020-08-21T10:26:46Z" data-provider="hobbiesOptions" finished-at="2020-08-21T10:26:46Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="hobbiesOptionsVisible" duration-ms="64" started-at="2020-08-21T11:53:09Z" data-provider="hobbiesOptions" finished-at="2020-08-21T11:53:09Z">
           <params>
             <param index="0">
               <value>
@@ -696,7 +527,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="hobbiesOptionsVisible" duration-ms="21" started-at="2020-08-21T10:26:46Z" data-provider="hobbiesOptions" finished-at="2020-08-21T10:26:46Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="hobbiesOptionsVisible" duration-ms="34" started-at="2020-08-21T11:53:09Z" data-provider="hobbiesOptions" finished-at="2020-08-21T11:53:09Z">
           <params>
             <param index="0">
               <value>
@@ -707,7 +538,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="hobbiesOptionsVisible" duration-ms="23" started-at="2020-08-21T10:26:46Z" data-provider="hobbiesOptions" finished-at="2020-08-21T10:26:46Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="hobbiesOptionsVisible" duration-ms="28" started-at="2020-08-21T11:53:09Z" data-provider="hobbiesOptions" finished-at="2020-08-21T11:53:09Z">
           <params>
             <param index="0">
               <value>
@@ -718,7 +549,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="hobbiesOptionsVisible" duration-ms="19" started-at="2020-08-21T10:26:46Z" data-provider="hobbiesOptions" finished-at="2020-08-21T10:26:46Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="hobbiesOptionsVisible" duration-ms="17" started-at="2020-08-21T11:53:09Z" data-provider="hobbiesOptions" finished-at="2020-08-21T11:53:09Z">
           <params>
             <param index="0">
               <value>
@@ -729,7 +560,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="hobbiesOptionsVisible" duration-ms="17" started-at="2020-08-21T10:26:46Z" data-provider="hobbiesOptions" finished-at="2020-08-21T10:26:46Z">
+        <test-method status="PASS" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="hobbiesOptionsVisible" duration-ms="23" started-at="2020-08-21T11:53:09Z" data-provider="hobbiesOptions" finished-at="2020-08-21T11:53:09Z">
           <params>
             <param index="0">
               <value>
@@ -740,7 +571,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="PASS" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="invalidWebsitentry" duration-ms="11347" started-at="2020-08-21T10:26:46Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T10:26:57Z">
+        <test-method status="PASS" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="invalidWebsitentry" duration-ms="11456" started-at="2020-08-21T11:53:09Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T11:53:21Z">
           <params>
             <param index="0">
               <value>
@@ -751,7 +582,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWebsitentry -->
-        <test-method status="PASS" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="invalidWebsitentry" duration-ms="11354" started-at="2020-08-21T10:26:57Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T10:27:09Z">
+        <test-method status="PASS" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="invalidWebsitentry" duration-ms="11233" started-at="2020-08-21T11:53:21Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T11:53:32Z">
           <params>
             <param index="0">
               <value>
@@ -762,7 +593,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWebsitentry -->
-        <test-method status="PASS" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="invalidWebsitentry" duration-ms="11290" started-at="2020-08-21T10:27:09Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T10:27:20Z">
+        <test-method status="PASS" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="invalidWebsitentry" duration-ms="11261" started-at="2020-08-21T11:53:32Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T11:53:43Z">
           <params>
             <param index="0">
               <value>
@@ -773,7 +604,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWebsitentry -->
-        <test-method status="PASS" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="invalidWebsitentry" duration-ms="11227" started-at="2020-08-21T10:27:20Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T10:27:31Z">
+        <test-method status="PASS" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="invalidWebsitentry" duration-ms="11188" started-at="2020-08-21T11:53:43Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T11:53:54Z">
           <params>
             <param index="0">
               <value>
@@ -784,7 +615,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWebsitentry -->
-        <test-method status="PASS" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="invalidWebsitentry" duration-ms="11329" started-at="2020-08-21T10:27:31Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T10:27:42Z">
+        <test-method status="PASS" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="invalidWebsitentry" duration-ms="11243" started-at="2020-08-21T11:53:54Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T11:54:06Z">
           <params>
             <param index="0">
               <value>
@@ -795,43 +626,43 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidWebsitentry -->
-        <test-method status="PASS" signature="isHobbiesCheckBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="isHobbiesCheckBoxVisible" duration-ms="23" started-at="2020-08-21T10:27:42Z" finished-at="2020-08-21T10:27:43Z">
+        <test-method status="PASS" signature="isHobbiesCheckBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="isHobbiesCheckBoxVisible" duration-ms="21" started-at="2020-08-21T11:54:06Z" finished-at="2020-08-21T11:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isHobbiesCheckBoxVisible -->
-        <test-method status="PASS" signature="isHobbiesLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="isHobbiesLabelVisible" duration-ms="16" started-at="2020-08-21T10:27:43Z" finished-at="2020-08-21T10:27:43Z">
+        <test-method status="PASS" signature="isHobbiesLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="isHobbiesLabelVisible" duration-ms="21" started-at="2020-08-21T11:54:06Z" finished-at="2020-08-21T11:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isHobbiesLabelVisible -->
-        <test-method status="PASS" signature="isNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="isNextButtonVisible" duration-ms="13" started-at="2020-08-21T10:27:43Z" finished-at="2020-08-21T10:27:43Z">
+        <test-method status="PASS" signature="isNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="isNextButtonVisible" duration-ms="22" started-at="2020-08-21T11:54:06Z" finished-at="2020-08-21T11:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isNextButtonVisible -->
-        <test-method status="PASS" signature="isPictureLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="isPictureLabelVisible" duration-ms="15" started-at="2020-08-21T10:27:43Z" finished-at="2020-08-21T10:27:43Z">
+        <test-method status="PASS" signature="isPictureLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="isPictureLabelVisible" duration-ms="15" started-at="2020-08-21T11:54:06Z" finished-at="2020-08-21T11:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPictureLabelVisible -->
-        <test-method status="PASS" signature="isPrevButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="isPrevButtonVisible" duration-ms="15" started-at="2020-08-21T10:27:43Z" finished-at="2020-08-21T10:27:43Z">
+        <test-method status="PASS" signature="isPrevButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="isPrevButtonVisible" duration-ms="15" started-at="2020-08-21T11:54:06Z" finished-at="2020-08-21T11:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPrevButtonVisible -->
-        <test-method status="PASS" signature="isWebsiteLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="isWebsiteLabelVisible" duration-ms="15" started-at="2020-08-21T10:27:43Z" finished-at="2020-08-21T10:27:43Z">
+        <test-method status="PASS" signature="isWebsiteLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="isWebsiteLabelVisible" duration-ms="16" started-at="2020-08-21T11:54:06Z" finished-at="2020-08-21T11:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isWebsiteLabelVisible -->
-        <test-method status="PASS" signature="isWebsiteTextBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="isWebsiteTextBoxVisible" duration-ms="15" started-at="2020-08-21T10:27:43Z" finished-at="2020-08-21T10:27:43Z">
+        <test-method status="PASS" signature="isWebsiteTextBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="isWebsiteTextBoxVisible" duration-ms="21" started-at="2020-08-21T11:54:06Z" finished-at="2020-08-21T11:54:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isWebsiteTextBoxVisible -->
-        <test-method status="PASS" signature="selectPicture()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="selectPicture" duration-ms="7183" started-at="2020-08-21T10:27:43Z" finished-at="2020-08-21T10:27:50Z">
+        <test-method status="PASS" signature="selectPicture()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="selectPicture" duration-ms="7243" started-at="2020-08-21T11:54:06Z" finished-at="2020-08-21T11:54:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPicture -->
-        <test-method status="PASS" signature="validHobbiesSelection()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="validHobbiesSelection" duration-ms="117" started-at="2020-08-21T10:27:50Z" finished-at="2020-08-21T10:27:50Z">
+        <test-method status="PASS" signature="validHobbiesSelection()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="validHobbiesSelection" duration-ms="164" started-at="2020-08-21T11:54:13Z" finished-at="2020-08-21T11:54:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validHobbiesSelection -->
-        <test-method status="PASS" signature="validWebsiteEntry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="validWebsiteEntry" duration-ms="227" started-at="2020-08-21T10:27:50Z" data-provider="validWebsiteTestData" finished-at="2020-08-21T10:27:50Z">
+        <test-method status="PASS" signature="validWebsiteEntry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="validWebsiteEntry" duration-ms="325" started-at="2020-08-21T11:54:13Z" data-provider="validWebsiteTestData" finished-at="2020-08-21T11:54:14Z">
           <params>
             <param index="0">
               <value>
@@ -842,7 +673,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validWebsiteEntry -->
-        <test-method status="PASS" signature="validWebsiteEntry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="validWebsiteEntry" duration-ms="169" started-at="2020-08-21T10:27:50Z" data-provider="validWebsiteTestData" finished-at="2020-08-21T10:27:50Z">
+        <test-method status="PASS" signature="validWebsiteEntry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="validWebsiteEntry" duration-ms="251" started-at="2020-08-21T11:54:14Z" data-provider="validWebsiteTestData" finished-at="2020-08-21T11:54:14Z">
           <params>
             <param index="0">
               <value>
@@ -853,7 +684,7 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validWebsiteEntry -->
-        <test-method status="PASS" signature="validWebsiteEntry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="validWebsiteEntry" duration-ms="156" started-at="2020-08-21T10:27:50Z" data-provider="validWebsiteTestData" finished-at="2020-08-21T10:27:51Z">
+        <test-method status="PASS" signature="validWebsiteEntry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="validWebsiteEntry" duration-ms="210" started-at="2020-08-21T11:54:14Z" data-provider="validWebsiteTestData" finished-at="2020-08-21T11:54:14Z">
           <params>
             <param index="0">
               <value>
@@ -864,1119 +695,19 @@ Session ID: 53e5853294936170584dae2af8214cf2
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validWebsiteEntry -->
-        <test-method status="PASS" signature="verifyNextButtonText()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="verifyNextButtonText" duration-ms="28" started-at="2020-08-21T10:27:51Z" finished-at="2020-08-21T10:27:51Z">
+        <test-method status="PASS" signature="verifyNextButtonText()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="verifyNextButtonText" duration-ms="39" started-at="2020-08-21T11:54:14Z" finished-at="2020-08-21T11:54:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNextButtonText -->
-        <test-method status="PASS" signature="verifyOnClickPrevButton()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="verifyOnClickPrevButton" duration-ms="208" started-at="2020-08-21T10:27:51Z" finished-at="2020-08-21T10:27:51Z">
+        <test-method status="PASS" signature="verifyOnClickPrevButton()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="verifyOnClickPrevButton" duration-ms="335" started-at="2020-08-21T11:54:14Z" finished-at="2020-08-21T11:54:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyOnClickPrevButton -->
-        <test-method status="PASS" signature="verifyPrevButtonText()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@685cb137]" name="verifyPrevButtonText" duration-ms="50" started-at="2020-08-21T10:27:51Z" finished-at="2020-08-21T10:27:51Z">
-=======
-        <test-method status="PASS" signature="navigateToEnterVehicleData()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="navigateToEnterVehicleData" is-config="true" duration-ms="4808" started-at="2020-08-21T15:17:12Z" finished-at="2020-08-21T15:17:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToEnterVehicleData -->
-        <test-method status="PASS" signature="verifyAnnualMileageSelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyAnnualMileageSelection" duration-ms="1857" started-at="2020-08-21T15:17:17Z" finished-at="2020-08-21T15:17:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAnnualMileageSelection -->
-        <test-method status="PASS" signature="verifyCylinderCapacitySelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyCylinderCapacitySelection" duration-ms="1120" started-at="2020-08-21T15:17:19Z" finished-at="2020-08-21T15:17:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCylinderCapacitySelection -->
-        <test-method status="PASS" signature="verifyDateOfmanufacture()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyDateOfmanufacture" duration-ms="1081" started-at="2020-08-21T15:17:20Z" finished-at="2020-08-21T15:17:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyDateOfmanufacture -->
-        <test-method status="PASS" signature="verifyEnginePerformanceSelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyEnginePerformanceSelection" duration-ms="1272" started-at="2020-08-21T15:17:21Z" finished-at="2020-08-21T15:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEnginePerformanceSelection -->
-        <test-method status="PASS" signature="verifyIsAnnualMileageVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsAnnualMileageVisible" duration-ms="37" started-at="2020-08-21T15:17:22Z" finished-at="2020-08-21T15:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsAnnualMileageVisible -->
-        <test-method status="PASS" signature="verifyIsAnnualMileagetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsAnnualMileagetext" duration-ms="56" started-at="2020-08-21T15:17:22Z" finished-at="2020-08-21T15:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsAnnualMileagetext -->
-        <test-method status="PASS" signature="verifyIsCylinderCapacityVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsCylinderCapacityVisible" duration-ms="35" started-at="2020-08-21T15:17:22Z" finished-at="2020-08-21T15:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsCylinderCapacityVisible -->
-        <test-method status="PASS" signature="verifyIsCylinderCapacitytext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsCylinderCapacitytext" duration-ms="60" started-at="2020-08-21T15:17:22Z" finished-at="2020-08-21T15:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsCylinderCapacitytext -->
-        <test-method status="PASS" signature="verifyIsDateOfManufacturetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsDateOfManufacturetext" duration-ms="59" started-at="2020-08-21T15:17:22Z" finished-at="2020-08-21T15:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsDateOfManufacturetext -->
-        <test-method status="PASS" signature="verifyIsEnginePerformanceVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsEnginePerformanceVisible" duration-ms="32" started-at="2020-08-21T15:17:22Z" finished-at="2020-08-21T15:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsEnginePerformanceVisible -->
-        <test-method status="PASS" signature="verifyIsEnginePerformancetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsEnginePerformancetext" duration-ms="51" started-at="2020-08-21T15:17:22Z" finished-at="2020-08-21T15:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsEnginePerformancetext -->
-        <test-method status="PASS" signature="verifyIsListPriceVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsListPriceVisible" duration-ms="37" started-at="2020-08-21T15:17:22Z" finished-at="2020-08-21T15:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsListPriceVisible -->
-        <test-method status="PASS" signature="verifyIsListpricetext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsListpricetext" duration-ms="55" started-at="2020-08-21T15:17:22Z" finished-at="2020-08-21T15:17:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsListpricetext -->
-        <test-method status="PASS" signature="verifyIsMakeVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsMakeVisible" duration-ms="37" started-at="2020-08-21T15:17:22Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsMakeVisible -->
-        <test-method status="PASS" signature="verifyIsMaketext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsMaketext" duration-ms="55" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsMaketext -->
-        <test-method status="PASS" signature="verifyIsModelVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsModelVisible" duration-ms="34" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsModelVisible -->
-        <test-method status="PASS" signature="verifyIsModeltext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsModeltext" duration-ms="51" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsModeltext -->
-        <test-method status="PASS" signature="verifyIsNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsNextButtonVisible" duration-ms="39" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNextButtonVisible -->
-        <test-method status="PASS" signature="verifyIsNextButtontext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsNextButtontext" duration-ms="54" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNextButtontext -->
-        <test-method status="PASS" signature="verifyIsNumberOfSeatsVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsNumberOfSeatsVisible" duration-ms="37" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNumberOfSeatsVisible -->
-        <test-method status="PASS" signature="verifyIsNumberofSeatstext()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsNumberofSeatstext" duration-ms="63" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNumberofSeatstext -->
-        <test-method status="PASS" signature="verifyIsOpenDateOfCalenderButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsOpenDateOfCalenderButtonVisible" duration-ms="47" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsOpenDateOfCalenderButtonVisible -->
-        <test-method status="PASS" signature="verifyIsOpenNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsOpenNextButtonVisible" duration-ms="28" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsOpenNextButtonVisible -->
-        <test-method status="PASS" signature="verifyIsOpenPrevButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsOpenPrevButtonVisible" duration-ms="26" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsOpenPrevButtonVisible -->
-        <test-method status="PASS" signature="verifyIsSelectMaker1Selectable()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsSelectMaker1Selectable" duration-ms="3335" started-at="2020-08-21T15:17:23Z" finished-at="2020-08-21T15:17:26Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSelectMaker1Selectable -->
-        <test-method status="PASS" signature="verifyIsSelectMaker2Selectable()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsSelectMaker2Selectable" duration-ms="3275" started-at="2020-08-21T15:17:26Z" finished-at="2020-08-21T15:17:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSelectMaker2Selectable -->
-        <test-method status="PASS" signature="verifyIsSelectMakerSelectable()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsSelectMakerSelectable" duration-ms="3281" started-at="2020-08-21T15:17:30Z" finished-at="2020-08-21T15:17:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSelectMakerSelectable -->
-        <test-method status="PASS" signature="verifyListPriceSelection()[pri:0, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyListPriceSelection" duration-ms="1608" started-at="2020-08-21T15:17:33Z" finished-at="2020-08-21T15:17:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyListPriceSelection -->
-        <test-method status="PASS" signature="verifyIsOpendateOfcalenderClickable()[pri:1, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsOpendateOfcalenderClickable" duration-ms="187" started-at="2020-08-21T15:17:34Z" finished-at="2020-08-21T15:17:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsOpendateOfcalenderClickable -->
-        <test-method status="PASS" signature="verifyIsOpenNextClickable()[pri:2, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsOpenNextClickable" duration-ms="182" started-at="2020-08-21T15:17:35Z" finished-at="2020-08-21T15:17:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsOpenNextClickable -->
-        <test-method status="PASS" signature="verifyIsOpenPrevClickable()[pri:3, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsOpenPrevClickable" duration-ms="154" started-at="2020-08-21T15:17:35Z" finished-at="2020-08-21T15:17:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsOpenPrevClickable -->
-        <test-method status="FAIL" signature="verifyIsNextClickable()[pri:4, instance:testScripts.Motorcycle.EnterVehicleData@3ffc5af1]" name="verifyIsNextClickable" duration-ms="1326" started-at="2020-08-21T15:17:35Z" finished-at="2020-08-21T15:17:36Z">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button id="nextenterinsurantdata" name="Next (Enter Insurant Data)" type="button" class="next button">...</button> is not clickable at point (393, 592). Other element would receive the click: <a class="ui-state-default" href="#">...</a>
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'A', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 53e5853294936170584dae2af8214cf2]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button id="nextenterinsurantdata" name="Next (Enter Insurant Data)" type="button" class="next button">...</button> is not clickable at point (393, 592). Other element would receive the click: <a class="ui-state-default" href="#">...</a>
-  (Session info: chrome=84.0.4147.135)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'A', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 53e5853294936170584dae2af8214cf2
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at pages.Motorcycle.EnterVehicleData.clickNextButton(EnterVehicleData.java:228)
-	at testScripts.Motorcycle.EnterVehicleData.verifyIsNextClickable(EnterVehicleData.java:174)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNextClickable -->
-      </class> <!-- testScripts.Motorcycle.EnterVehicleData -->
-      <class name="testScripts.Motorcycle.SelectPriceOption">
-        <test-method status="FAIL" signature="preClass()[pri:0, instance:testScripts.Motorcycle.SelectPriceOption@3532ec19]" name="preClass" is-config="true" duration-ms="0" started-at="2020-08-21T15:18:00Z" finished-at="2020-08-21T15:18:00Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SelectPriceOption.preClass(SelectPriceOption.java:16)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- preClass -->
-        <test-method status="SKIP" signature="verifyIsSelectpriceoptionVisible()[pri:0, instance:testScripts.Motorcycle.SelectPriceOption@3532ec19]" name="verifyIsSelectpriceoptionVisible" duration-ms="2" started-at="2020-08-21T15:18:03Z" finished-at="2020-08-21T15:18:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSelectpriceoptionVisible -->
-        <test-method status="SKIP" signature="verifyIsSelectpriceoptiontext()[pri:1, instance:testScripts.Motorcycle.SelectPriceOption@3532ec19]" name="verifyIsSelectpriceoptiontext" duration-ms="1" started-at="2020-08-21T15:18:03Z" finished-at="2020-08-21T15:18:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSelectpriceoptiontext -->
-        <test-method status="SKIP" signature="verifyIsSelectpriceoptionClickable()[pri:2, instance:testScripts.Motorcycle.SelectPriceOption@3532ec19]" name="verifyIsSelectpriceoptionClickable" duration-ms="1" started-at="2020-08-21T15:18:03Z" finished-at="2020-08-21T15:18:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSelectpriceoptionClickable -->
-        <test-method status="SKIP" signature="verifyIsSelectpriceoption1text()[pri:3, instance:testScripts.Motorcycle.SelectPriceOption@3532ec19]" name="verifyIsSelectpriceoption1text" duration-ms="1" started-at="2020-08-21T15:18:03Z" finished-at="2020-08-21T15:18:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSelectpriceoption1text -->
-        <test-method status="SKIP" signature="verifyIsSelectpriceoption1Clickable()[pri:4, instance:testScripts.Motorcycle.SelectPriceOption@3532ec19]" name="verifyIsSelectpriceoption1Clickable" duration-ms="1" started-at="2020-08-21T15:18:03Z" finished-at="2020-08-21T15:18:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSelectpriceoption1Clickable -->
-      </class> <!-- testScripts.Motorcycle.SelectPriceOption -->
-      <class name="testScripts.Motorcycle.SendQuote">
-        <test-method status="PASS" signature="beforeProductData()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="beforeProductData" is-config="true" duration-ms="3009" started-at="2020-08-21T15:18:03Z" finished-at="2020-08-21T15:18:06Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeProductData -->
-        <test-method status="FAIL" signature="verifyIsCommentsVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsCommentsVisible" duration-ms="2" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsCommentsVisible(SendQuote.java:47)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsCommentsVisible -->
-        <test-method status="FAIL" signature="verifyIsConfirmpasswordVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsConfirmpasswordVisible" duration-ms="1" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsConfirmpasswordVisible(SendQuote.java:42)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsConfirmpasswordVisible -->
-        <test-method status="FAIL" signature="verifyIsEmailVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsEmailVisible" duration-ms="3" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsEmailVisible(SendQuote.java:22)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsEmailVisible -->
-        <test-method status="FAIL" signature="verifyIsMainpageVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsMainpageVisible" duration-ms="2" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsMainpageVisible(SendQuote.java:62)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsMainpageVisible -->
-        <test-method status="FAIL" signature="verifyIsNewautomobileinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsNewautomobileinsuranceVisible" duration-ms="2" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsNewautomobileinsuranceVisible(SendQuote.java:67)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNewautomobileinsuranceVisible -->
-        <test-method status="FAIL" signature="verifyIsNewcamperinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsNewcamperinsuranceVisible" duration-ms="1" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsNewcamperinsuranceVisible(SendQuote.java:77)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNewcamperinsuranceVisible -->
-        <test-method status="FAIL" signature="verifyIsNewtruckinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsNewtruckinsuranceVisible" duration-ms="1" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsNewtruckinsuranceVisible(SendQuote.java:72)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNewtruckinsuranceVisible -->
-        <test-method status="FAIL" signature="verifyIsPasswordVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsPasswordVisible" duration-ms="1" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsPasswordVisible(SendQuote.java:37)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsPasswordVisible -->
-        <test-method status="FAIL" signature="verifyIsPhoneVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsPhoneVisible" duration-ms="1" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsPhoneVisible(SendQuote.java:27)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsPhoneVisible -->
-        <test-method status="FAIL" signature="verifyIsPrevVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsPrevVisible" duration-ms="2" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsPrevVisible(SendQuote.java:57)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsPrevVisible -->
-        <test-method status="FAIL" signature="verifyIsSendemailVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsSendemailVisible" duration-ms="1" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsSendemailVisible(SendQuote.java:52)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSendemailVisible -->
-        <test-method status="FAIL" signature="verifyIsUsernameVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="verifyIsUsernameVisible" duration-ms="1" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.verifyIsUsernameVisible(SendQuote.java:32)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsUsernameVisible -->
-        <test-method status="FAIL" signature="enterandVerifySendQuotesPage()[pri:1, instance:testScripts.Motorcycle.SendQuote@68c4039c]" name="enterandVerifySendQuotesPage" duration-ms="0" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:06Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.SendQuote.enterandVerifySendQuotesPage(SendQuote.java:83)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterandVerifySendQuotesPage -->
-      </class> <!-- testScripts.Motorcycle.SendQuote -->
-      <class name="testScripts.HomePage.HomePage">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.HomePage.HomePage@29774679]" name="launchBrowser" is-config="true" duration-ms="1" started-at="2020-08-21T15:15:39Z" finished-at="2020-08-21T15:15:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyIsHomepageVisible()[pri:-1, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsHomepageVisible" duration-ms="800" started-at="2020-08-21T15:15:39Z" finished-at="2020-08-21T15:15:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsHomepageVisible -->
-        <test-method status="PASS" signature="verifyHomepagetext()[pri:0, instance:testScripts.HomePage.HomePage@29774679]" name="verifyHomepagetext" duration-ms="922" started-at="2020-08-21T15:15:40Z" finished-at="2020-08-21T15:15:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomepagetext -->
-        <test-method status="PASS" signature="verifyIsSearchsupportClickable()[pri:1, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsSearchsupportClickable" duration-ms="16718" started-at="2020-08-21T15:15:41Z" finished-at="2020-08-21T15:15:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSearchsupportClickable -->
-        <test-method status="PASS" signature="verifyIsVisitsupportClickable()[pri:2, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsVisitsupportClickable" duration-ms="5633" started-at="2020-08-21T15:15:57Z" finished-at="2020-08-21T15:16:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsVisitsupportClickable -->
-        <test-method status="PASS" signature="verifyIsAutomobileClickable()[pri:3, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsAutomobileClickable" duration-ms="3971" started-at="2020-08-21T15:16:03Z" finished-at="2020-08-21T15:16:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsAutomobileClickable -->
-        <test-method status="PASS" signature="verifyIsTruckClickable()[pri:4, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsTruckClickable" duration-ms="3189" started-at="2020-08-21T15:16:07Z" finished-at="2020-08-21T15:16:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTruckClickable -->
-        <test-method status="PASS" signature="verifyIsMotorcycleClickable()[pri:5, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsMotorcycleClickable" duration-ms="3058" started-at="2020-08-21T15:16:10Z" finished-at="2020-08-21T15:16:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsMotorcycleClickable -->
-        <test-method status="PASS" signature="verifyIsCamperClickable()[pri:6, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsCamperClickable" duration-ms="3577" started-at="2020-08-21T15:16:13Z" finished-at="2020-08-21T15:16:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsCamperClickable -->
-        <test-method status="PASS" signature="verifyIsTricentis_aboutClickable()[pri:7, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsTricentis_aboutClickable" duration-ms="14657" started-at="2020-08-21T15:16:17Z" finished-at="2020-08-21T15:16:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTricentis_aboutClickable -->
-        <test-method status="PASS" signature="verifyIsTricentis_productsClickable()[pri:8, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsTricentis_productsClickable" duration-ms="5579" started-at="2020-08-21T15:16:31Z" finished-at="2020-08-21T15:16:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTricentis_productsClickable -->
-        <test-method status="PASS" signature="verifyIsTricentis_eventsClickable()[pri:9, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsTricentis_eventsClickable" duration-ms="6464" started-at="2020-08-21T15:16:37Z" finished-at="2020-08-21T15:16:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTricentis_eventsClickable -->
-        <test-method status="PASS" signature="verifyIsTricentis_resourcesClickable()[pri:10, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsTricentis_resourcesClickable" duration-ms="8669" started-at="2020-08-21T15:16:43Z" finished-at="2020-08-21T15:16:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTricentis_resourcesClickable -->
-        <test-method status="PASS" signature="verifyIsTricentis_servicesClickable()[pri:11, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsTricentis_servicesClickable" duration-ms="5477" started-at="2020-08-21T15:16:52Z" finished-at="2020-08-21T15:16:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTricentis_servicesClickable -->
-        <test-method status="PASS" signature="verifyIsNav_facebookClickable()[pri:12, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsNav_facebookClickable" duration-ms="4497" started-at="2020-08-21T15:16:58Z" finished-at="2020-08-21T15:17:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNav_facebookClickable -->
-        <test-method status="PASS" signature="verifyIsNav_twitterClickable()[pri:13, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsNav_twitterClickable" duration-ms="4489" started-at="2020-08-21T15:17:02Z" finished-at="2020-08-21T15:17:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNav_twitterClickable -->
-        <test-method status="PASS" signature="verifyIsNav_googleClickable()[pri:14, instance:testScripts.HomePage.HomePage@29774679]" name="verifyIsNav_googleClickable" duration-ms="5320" started-at="2020-08-21T15:17:07Z" finished-at="2020-08-21T15:17:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNav_googleClickable -->
-      </class> <!-- testScripts.HomePage.HomePage -->
-      <class name="testScripts.Motorcycle.PreconditionMotorcycle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@61832929]" name="initialize" is-config="true" duration-ms="21" started-at="2020-08-21T15:15:19Z" finished-at="2020-08-21T15:15:19Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@61832929]" name="launchBrowser" is-config="true" duration-ms="20106" started-at="2020-08-21T15:15:19Z" finished-at="2020-08-21T15:15:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@61832929]" name="closeBrowser" is-config="true" duration-ms="1454" started-at="2020-08-21T15:18:06Z" finished-at="2020-08-21T15:18:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@61832929]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-21T15:18:08Z" finished-at="2020-08-21T15:18:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testScripts.Motorcycle.PreconditionMotorcycle -->
-      <class name="testScripts.Motorcycle.EnterInsuranceData">
-        <test-method status="PASS" signature="navigateToEnterInsuranceData()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="navigateToEnterInsuranceData" is-config="true" duration-ms="5254" started-at="2020-08-21T15:17:36Z" finished-at="2020-08-21T15:17:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToEnterInsuranceData -->
-        <test-method status="SKIP" signature="hobbiesOptionsVisible(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="hobbiesOptionsVisible" duration-ms="0" started-at="2020-08-21T15:17:42Z" data-provider="hobbiesOptions" finished-at="2020-08-21T15:17:42Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.hobbiesOptions() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.hobbiesOptions() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hobbiesOptionsVisible -->
-        <test-method status="SKIP" signature="invalidWebsitentry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="invalidWebsitentry" duration-ms="0" started-at="2020-08-21T15:17:42Z" data-provider="invalidWebsiteTestData" finished-at="2020-08-21T15:17:42Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.invalidWebsiteTestData() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.invalidWebsiteTestData() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- invalidWebsitentry -->
-        <test-method status="PASS" signature="isHobbiesCheckBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="isHobbiesCheckBoxVisible" duration-ms="109" started-at="2020-08-21T15:17:42Z" finished-at="2020-08-21T15:17:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isHobbiesCheckBoxVisible -->
-        <test-method status="PASS" signature="isHobbiesLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="isHobbiesLabelVisible" duration-ms="41" started-at="2020-08-21T15:17:42Z" finished-at="2020-08-21T15:17:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isHobbiesLabelVisible -->
-        <test-method status="PASS" signature="isNextButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="isNextButtonVisible" duration-ms="35" started-at="2020-08-21T15:17:42Z" finished-at="2020-08-21T15:17:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isNextButtonVisible -->
-        <test-method status="PASS" signature="isPictureLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="isPictureLabelVisible" duration-ms="36" started-at="2020-08-21T15:17:42Z" finished-at="2020-08-21T15:17:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isPictureLabelVisible -->
-        <test-method status="PASS" signature="isPrevButtonVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="isPrevButtonVisible" duration-ms="26" started-at="2020-08-21T15:17:42Z" finished-at="2020-08-21T15:17:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isPrevButtonVisible -->
-        <test-method status="PASS" signature="isWebsiteLabelVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="isWebsiteLabelVisible" duration-ms="31" started-at="2020-08-21T15:17:42Z" finished-at="2020-08-21T15:17:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isWebsiteLabelVisible -->
-        <test-method status="PASS" signature="isWebsiteTextBoxVisible()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="isWebsiteTextBoxVisible" duration-ms="31" started-at="2020-08-21T15:17:42Z" finished-at="2020-08-21T15:17:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- isWebsiteTextBoxVisible -->
-        <test-method status="FAIL" signature="selectPicture()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="selectPicture" duration-ms="10049" started-at="2020-08-21T15:17:42Z" finished-at="2020-08-21T15:17:52Z">
-          <exception class="java.lang.StringIndexOutOfBoundsException">
-            <message>
-              <![CDATA[String index out of range: -1]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source)
-	at pages.Motorcycle.EnterInsuranceData.validPictureSelection(EnterInsuranceData.java:149)
-	at testScripts.Motorcycle.EnterInsuranceData.selectPicture(EnterInsuranceData.java:81)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.StringIndexOutOfBoundsException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectPicture -->
-        <test-method status="PASS" signature="validHobbiesSelection()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="validHobbiesSelection" duration-ms="247" started-at="2020-08-21T15:17:52Z" finished-at="2020-08-21T15:17:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validHobbiesSelection -->
-        <test-method status="SKIP" signature="validWebsiteEntry(java.lang.String)[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="validWebsiteEntry" duration-ms="0" started-at="2020-08-21T15:17:52Z" data-provider="validWebsiteTestData" finished-at="2020-08-21T15:17:52Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.validWebsiteTestData() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.validWebsiteTestData() throws java.io.IOException must return either Object[][] or Iterator<Object>[], not class [Ljava.lang.String;
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1243)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:992)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1082)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validWebsiteEntry -->
-        <test-method status="PASS" signature="verifyNextButtonText()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="verifyNextButtonText" duration-ms="74" started-at="2020-08-21T15:17:52Z" finished-at="2020-08-21T15:17:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyNextButtonText -->
-        <test-method status="FAIL" signature="verifyOnClickPrevButton()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="verifyOnClickPrevButton" duration-ms="210" started-at="2020-08-21T15:17:52Z" finished-at="2020-08-21T15:17:53Z">
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-	at testScripts.Motorcycle.EnterInsuranceData.verifyOnClickPrevButton(EnterInsuranceData.java:97)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyOnClickPrevButton -->
-        <test-method status="FAIL" signature="verifyPrevButtonText()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@5e5792a0]" name="verifyPrevButtonText" duration-ms="99" started-at="2020-08-21T15:17:53Z" finished-at="2020-08-21T15:17:53Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:305)
-	at org.testng.Assert.assertEquals(Assert.java:315)
-	at testScripts.Motorcycle.EnterInsuranceData.verifyPrevButtonText(EnterInsuranceData.java:91)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:778)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
-	at org.testng.TestNG.runSuites(TestNG.java:1075)
-	at org.testng.TestNG.run(TestNG.java:1047)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
->>>>>>> af3df79d5ca505e6819af0d6e32521094b9e329f
+        <test-method status="PASS" signature="verifyPrevButtonText()[pri:0, instance:testScripts.Motorcycle.EnterInsuranceData@64bfbc86]" name="verifyPrevButtonText" duration-ms="80" started-at="2020-08-21T11:54:14Z" finished-at="2020-08-21T11:54:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPrevButtonText -->
       </class> <!-- testScripts.Motorcycle.EnterInsuranceData -->
-    </test> <!-- Test -->
+    </test> <!-- Motorcycle -->
   </suite> <!-- Suite -->
 </testng-results>
