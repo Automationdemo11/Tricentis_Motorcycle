@@ -16,6 +16,7 @@ public class EnterProductData extends PreconditionMotorcycle {
 	public void beforeProductData() throws InterruptedException {
 		// motorEnterProductData = new pages.Motorcycle.EnterProductData(dr);
 		Thread.sleep(5000);
+		motorEnterProductData = new pages.Motorcycle.EnterProductData(dr);
 		motorEnterProductData.navigateToEnterProductData();
 	}
 

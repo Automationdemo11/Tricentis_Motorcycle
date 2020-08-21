@@ -14,7 +14,8 @@ public class SelectPriceOption {
 
 	CommonLibrary lib = new CommonLibrary();
 
-	public SelectPriceOption(WebDriver dr) {
+	public SelectPriceOption(WebDriver dr) 
+	{
 		this.dr = dr;
 	}
 

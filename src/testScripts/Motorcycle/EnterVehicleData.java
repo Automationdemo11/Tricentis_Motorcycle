@@ -6,12 +6,16 @@ import org.testng.annotations.Test;
 
 public class EnterVehicleData extends PreconditionMotorcycle {
 //	WebDriver dr;
-	// pages.HomePage homePage;
+	 pages.HomePage homePage;
 	// EnterVehicleData motorcycleEnterVehicleData;
+	
 
 	@BeforeClass
 	public void navigateToEnterVehicleData() throws InterruptedException {
+		homePage=new pages.HomePage(dr);
+		homePage.clickMotorcycle();
 		Thread.sleep(3000);
+		motorEnterVehicleData = new pages.Motorcycle.EnterVehicleData(dr);
 		motorEnterVehicleData.navigateToEnterVehicleData();
 	}
 

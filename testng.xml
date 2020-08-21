@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
   <parameter name="browser" value="Chrome"></parameter>
     <classes>
+      <class name="testScripts.Motorcycle.PreconditionMotorcycle" />
+	  <class name="testScripts.HomePage.HomePage" />
       <class name="testScripts.Motorcycle.EnterVehicleData"/>
       <class name="testScripts.Motorcycle.EnterInsuranceData"/> 
       <class name="testScripts.Motorcycle.EnterProductData"/> 
