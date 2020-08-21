@@ -12,8 +12,6 @@ import libraries.Xls_Reader;
 
 public class EnterProductData extends PreconditionMotorcycle {
 
-	Xls_Reader xl = new Xls_Reader(Configuration.testDataPath);
-
 	@BeforeClass
 	public void beforeProductData() throws InterruptedException {
 		// motorEnterProductData = new pages.Motorcycle.EnterProductData(dr);
@@ -97,10 +95,11 @@ public class EnterProductData extends PreconditionMotorcycle {
 		Assert.assertEquals(motorEnterProductData.verifyOptionalProductTextBoxVisibility(), true);
 	}
 
-/*	@Test
-	public void validOptionalProductSelection() {
-		Assert.assertEquals(motorEnterProductData.validateOptionalProductCheckBoxSelection(), true);
-	}*/
+	/*
+	 * @Test public void validOptionalProductSelection() {
+	 * Assert.assertEquals(motorEnterProductData.
+	 * validateOptionalProductCheckBoxSelection(), true); }
+	 */
 
 	@Test
 	public void isPrevButtonVisible() {

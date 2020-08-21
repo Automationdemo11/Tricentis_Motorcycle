@@ -46,6 +46,8 @@ public class EnterInsuranceData {
 	
 	By prevButton = By.xpath("//button[@id='preventervehicledata']");
 	By nextButton = By.xpath("//button[@id='nextenterproductdata']");
+	
+	String testImgPath = System.getProperty("user.dir")+"\\src\\testData\\BMW.png";
 
 	public boolean verifyHobbiesLabelVisibility() {
 		return lib.isElementPresent(dr, hobbiesLabel);
@@ -129,10 +131,10 @@ public class EnterInsuranceData {
 	}
 
 	public boolean validPictureSelection() throws InterruptedException, AWTException {
+//		System.out.println(testImgPath);
 		dr.findElement(pictureOpenButton).click();
-		String imagePath = "D:\\27062020\\27062020Automation\\exception-hierarchy-in-java.png";
 		Thread.sleep(3000);
-		StringSelection cb = new StringSelection(imagePath);
+		StringSelection cb = new StringSelection(testImgPath);
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(cb, null);
 		
 		Robot robot = new Robot();
@@ -146,11 +148,13 @@ public class EnterInsuranceData {
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
 		Thread.sleep(2000);
-		String imgName = imagePath.substring(63);
+		String imgName = testImgPath.substring(55);
+//		System.out.println(imgName);
 		String imgPath = "//input[@title='"+imgName+"']";
+//		System.out.println(imgPath);
 		By imgElement = By.xpath(imgPath);
-		//return lib.isElementPresent(dr, imgElement);
-		return true;
+		return lib.isElementPresent(dr, imgElement);
+//		return true;
 	}
 
 }
