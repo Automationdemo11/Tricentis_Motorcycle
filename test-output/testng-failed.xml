@@ -5,6 +5,31 @@
   <test name="Test(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
+      <class name="testScripts.Motorcycle.EnterVehicleData">
+        <methods>
+          <include name="verifyIsNextClickable"/>
+          <include name="navigateToEnterVehicleData"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterVehicleData -->
+      <class name="testScripts.Motorcycle.PreconditionMotorcycle">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.PreconditionMotorcycle -->
+      <class name="testScripts.Motorcycle.EnterInsuranceData">
+        <methods>
+          <include name="hobbiesOptionsVisible"/>
+          <include name="verifyPrevButtonText"/>
+          <include name="selectPicture"/>
+          <include name="verifyOnClickPrevButton"/>
+          <include name="validWebsiteEntry"/>
+          <include name="invalidWebsitentry"/>
+          <include name="navigateToEnterInsuranceData"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterInsuranceData -->
       <class name="testScripts.Motorcycle.EnterProductData">
         <methods>
           <include name="damageInsuranceOptionsVisible"/>
@@ -14,35 +39,39 @@
           <include name="verifyOnClickPrevButton"/>
         </methods>
       </class> <!-- testScripts.Motorcycle.EnterProductData -->
-      <class name="testScripts.Motorcycle.EnterVehicleData">
-        <methods>
-          <include name="verifyIsNextClickable"/>
-          <include name="initialize"/>
-          <include name="tearDown"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-          <include name="navigateToEnterVehicleData"/>
-        </methods>
-      </class> <!-- testScripts.Motorcycle.EnterVehicleData -->
-      <class name="testScripts.Motorcycle.SendQuote">
-        <methods>
-          <include name="beforeProductData"/>
-        </methods>
-      </class> <!-- testScripts.Motorcycle.SendQuote -->
       <class name="testScripts.Motorcycle.SelectPriceOption">
         <methods>
+          <include name="verifyIsSelectpriceoptionVisible"/>
+          <include name="verifyIsSelectpriceoption1text"/>
+          <include name="verifyIsSelectpriceoptionClickable"/>
+          <include name="verifyIsSelectpriceoption1Clickable"/>
+          <include name="verifyIsSelectpriceoptiontext"/>
           <include name="preClass"/>
         </methods>
       </class> <!-- testScripts.Motorcycle.SelectPriceOption -->
-      <class name="testScripts.Motorcycle.EnterInsuranceData">
+      <class name="testScripts.HomePage.HomePage">
         <methods>
-          <include name="hobbiesOptionsVisible"/>
-          <include name="selectPicture"/>
-          <include name="validWebsiteEntry"/>
-          <include name="invalidWebsitentry"/>
-          <include name="navigateToEnterInsuranceData"/>
+          <include name="launchBrowser"/>
         </methods>
-      </class> <!-- testScripts.Motorcycle.EnterInsuranceData -->
+      </class> <!-- testScripts.HomePage.HomePage -->
+      <class name="testScripts.Motorcycle.SendQuote">
+        <methods>
+          <include name="verifyIsPhoneVisible"/>
+          <include name="verifyIsUsernameVisible"/>
+          <include name="verifyIsEmailVisible"/>
+          <include name="beforeProductData"/>
+          <include name="enterandVerifySendQuotesPage"/>
+          <include name="verifyIsConfirmpasswordVisible"/>
+          <include name="verifyIsNewautomobileinsuranceVisible"/>
+          <include name="verifyIsPrevVisible"/>
+          <include name="verifyIsSendemailVisible"/>
+          <include name="verifyIsPasswordVisible"/>
+          <include name="verifyIsNewcamperinsuranceVisible"/>
+          <include name="verifyIsNewtruckinsuranceVisible"/>
+          <include name="verifyIsMainpageVisible"/>
+          <include name="verifyIsCommentsVisible"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.SendQuote -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

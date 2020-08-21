@@ -9,13 +9,14 @@ import driver.Driver;
 
 public class PreconditionMotorcycle extends Driver {
 
-	static WebDriver dr;
-	static pages.Motorcycle.EnterInsuranceData motorEnterInsuranceData;
-	static pages.Motorcycle.EnterVehicleData motorEnterVehicleData;
-	static pages.Motorcycle.EnterProductData motorEnterProductData;
-	static pages.Motorcycle.SelectPriceOption selectpriceoption;
-	static pages.Motorcycle.SendQuote sendquote;
-	static pages.HomePage homePage;
+	protected static WebDriver dr;
+	pages.HomePage homePage;
+	pages.Motorcycle.EnterInsuranceData motorEnterInsuranceData;
+	pages.Motorcycle.EnterVehicleData motorEnterVehicleData;
+	pages.Motorcycle.EnterProductData motorEnterProductData;
+	pages.Motorcycle.SelectPriceOption selectpriceoption;
+	pages.Motorcycle.SendQuote sendquote;
+	
 	
 	@BeforeTest
 	@Parameters("browser")
@@ -27,7 +28,7 @@ public class PreconditionMotorcycle extends Driver {
 		motorEnterProductData = new pages.Motorcycle.EnterProductData(dr);
 		selectpriceoption = new pages.Motorcycle.SelectPriceOption(dr);
 		sendquote = new pages.Motorcycle.SendQuote(dr);
-		homePage.clickMotorcycle();
+		
 	}
 	
 	@AfterTest

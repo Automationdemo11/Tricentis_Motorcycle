@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>76/3/6</td>
+<td>Tests passed/Failed/Skipped:</td><td>72/18/11</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 19 23:40:21 IST 2020</td>
+<td>Started on:</td><td>Fri Aug 21 15:15:19 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>110 seconds (110060 ms)</td>
+<tr><td>Total time:</td><td>169 seconds (169219 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,6 +68,49 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScripts.Motorcycle.SelectPriceOption.preClass()'><b>preClass</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SelectPriceOption.preClass(SelectPriceOption.java:16)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1490434838", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1490434838'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SelectPriceOption.preClass(SelectPriceOption.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SelectPriceOption@3532ec19</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -75,16 +118,51 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='testScripts.Motorcycle.SendQuote.enterandVerifySendQuotesPage()'><b>enterandVerifySendQuotesPage</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.enterandVerifySendQuotesPage(SendQuote.java:83)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace564555077", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace564555077'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.enterandVerifySendQuotesPage(SendQuote.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.selectPicture()'><b>selectPicture</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td><div><pre>java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 	at java.lang.String.substring(Unknown Source)
 	at pages.Motorcycle.EnterInsuranceData.validPictureSelection(EnterInsuranceData.java:149)
-	at testScripts.Motorcycle.EnterInsuranceData.selectPicture(EnterInsuranceData.java:80)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace699221219", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace699221219'><pre>java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at testScripts.Motorcycle.EnterInsuranceData.selectPicture(EnterInsuranceData.java:81)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1871580398", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1871580398'><pre>java.lang.StringIndexOutOfBoundsException: String index out of range: -1
 	at java.lang.String.substring(Unknown Source)
 	at pages.Motorcycle.EnterInsuranceData.validPictureSelection(EnterInsuranceData.java:149)
-	at testScripts.Motorcycle.EnterInsuranceData.selectPicture(EnterInsuranceData.java:80)
+	at testScripts.Motorcycle.EnterInsuranceData.selectPicture(EnterInsuranceData.java:81)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -111,17 +189,262 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
-<td>11</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>10</td>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsCommentsVisible()'><b>verifyIsCommentsVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsCommentsVisible(SendQuote.java:47)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1118969241", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1118969241'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsCommentsVisible(SendQuote.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsConfirmpasswordVisible()'><b>verifyIsConfirmpasswordVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsConfirmpasswordVisible(SendQuote.java:42)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace632669667", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace632669667'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsConfirmpasswordVisible(SendQuote.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsEmailVisible()'><b>verifyIsEmailVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsEmailVisible(SendQuote.java:22)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace58421994", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace58421994'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsEmailVisible(SendQuote.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsMainpageVisible()'><b>verifyIsMainpageVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsMainpageVisible(SendQuote.java:62)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace131301148", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace131301148'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsMainpageVisible(SendQuote.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsNewautomobileinsuranceVisible()'><b>verifyIsNewautomobileinsuranceVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsNewautomobileinsuranceVisible(SendQuote.java:67)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace828535871", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace828535871'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsNewautomobileinsuranceVisible(SendQuote.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsNewcamperinsuranceVisible()'><b>verifyIsNewcamperinsuranceVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsNewcamperinsuranceVisible(SendQuote.java:77)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace809968973", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace809968973'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsNewcamperinsuranceVisible(SendQuote.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsNewtruckinsuranceVisible()'><b>verifyIsNewtruckinsuranceVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsNewtruckinsuranceVisible(SendQuote.java:72)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1318209130", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1318209130'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsNewtruckinsuranceVisible(SendQuote.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsNextClickable()'><b>verifyIsNextClickable</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;nextenterinsurantdata&quot; name=&quot;Next (Enter Insurant Data)&quot; type=&quot;button&quot; class=&quot;next button&quot;&gt;...&lt;/button&gt; is not clickable at point (393, 594). Other element would receive the click: &lt;a class=&quot;ui-state-default&quot; href=&quot;#&quot;&gt;...&lt;/a&gt;
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;nextenterinsurantdata&quot; name=&quot;Next (Enter Insurant Data)&quot; type=&quot;button&quot; class=&quot;next button&quot;&gt;...&lt;/button&gt; is not clickable at point (393, 592). Other element would receive the click: &lt;a class=&quot;ui-state-default&quot; href=&quot;#&quot;&gt;...&lt;/a&gt;
   (Session info: chrome=84.0.4147.135)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
 System info: host: &apos;A&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9c48684a0cdd977cb1035e7e241f5173
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 53e5853294936170584dae2af8214cf2
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -131,15 +454,15 @@ Session ID: 9c48684a0cdd977cb1035e7e241f5173
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at pages.Motorcycle.EnterVehicleData.clickNextButton(EnterVehicleData.java:228)
-	at testScripts.Motorcycle.EnterVehicleData.verifyIsNextClickable(EnterVehicleData.java:170)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace983767354", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace983767354'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;nextenterinsurantdata&quot; name=&quot;Next (Enter Insurant Data)&quot; type=&quot;button&quot; class=&quot;next button&quot;&gt;...&lt;/button&gt; is not clickable at point (393, 594). Other element would receive the click: &lt;a class=&quot;ui-state-default&quot; href=&quot;#&quot;&gt;...&lt;/a&gt;
+	at testScripts.Motorcycle.EnterVehicleData.verifyIsNextClickable(EnterVehicleData.java:174)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1327539680", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1327539680'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;nextenterinsurantdata&quot; name=&quot;Next (Enter Insurant Data)&quot; type=&quot;button&quot; class=&quot;next button&quot;&gt;...&lt;/button&gt; is not clickable at point (393, 592). Other element would receive the click: &lt;a class=&quot;ui-state-default&quot; href=&quot;#&quot;&gt;...&lt;/a&gt;
   (Session info: chrome=84.0.4147.135)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
 System info: host: &apos;A&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9c48684a0cdd977cb1035e7e241f5173
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 53e5853294936170584dae2af8214cf2
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -153,7 +476,7 @@ Session ID: 9c48684a0cdd977cb1035e7e241f5173
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at pages.Motorcycle.EnterVehicleData.clickNextButton(EnterVehicleData.java:228)
-	at testScripts.Motorcycle.EnterVehicleData.verifyIsNextClickable(EnterVehicleData.java:170)
+	at testScripts.Motorcycle.EnterVehicleData.verifyIsNextClickable(EnterVehicleData.java:174)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -181,16 +504,226 @@ Session ID: 9c48684a0cdd977cb1035e7e241f5173
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
 <td>1</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsPasswordVisible()'><b>verifyIsPasswordVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsPasswordVisible(SendQuote.java:37)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1863103905", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1863103905'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsPasswordVisible(SendQuote.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsPhoneVisible()'><b>verifyIsPhoneVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsPhoneVisible(SendQuote.java:27)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1196716338", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1196716338'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsPhoneVisible(SendQuote.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsPrevVisible()'><b>verifyIsPrevVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsPrevVisible(SendQuote.java:57)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1870541675", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1870541675'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsPrevVisible(SendQuote.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsSendemailVisible()'><b>verifyIsSendemailVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsSendemailVisible(SendQuote.java:52)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1578244276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1578244276'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsSendemailVisible(SendQuote.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.verifyIsUsernameVisible()'><b>verifyIsUsernameVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsUsernameVisible(SendQuote.java:32)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace208539442", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace208539442'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.SendQuote.verifyIsUsernameVisible(SendQuote.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@68c4039c</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.EnterInsuranceData.verifyOnClickPrevButton()'><b>verifyOnClickPrevButton</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.EnterInsuranceData.verifyOnClickPrevButton(EnterInsuranceData.java:97)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1589214445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1589214445'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.EnterInsuranceData.verifyOnClickPrevButton(EnterInsuranceData.java:97)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.verifyOnClickPrevButton()'><b>verifyOnClickPrevButton</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;preventerinsurancedata&quot; name=&quot;Prev (Enter Insurance Data)&quot; type=&quot;button&quot; class=&quot;prev&quot;&gt;...&lt;/button&gt; is not clickable at point (393, 401). Other element would receive the click: &lt;div id=&quot;ui-datepicker-div&quot; class=&quot;ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all&quot; style=&quot;position: absolute; top: 354.594px; left: 345.5px; z-index: 1; display: block; width: 290px;&quot;&gt;...&lt;/div&gt;
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;preventerinsurancedata&quot; name=&quot;Prev (Enter Insurance Data)&quot; type=&quot;button&quot; class=&quot;prev&quot;&gt;...&lt;/button&gt; is not clickable at point (392, 415). Other element would receive the click: &lt;div id=&quot;ui-datepicker-div&quot; class=&quot;ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all&quot; style=&quot;position: absolute; top: 362.594px; left: 345.5px; z-index: 1; display: block; width: 290px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=84.0.4147.135)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
 System info: host: &apos;A&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9c48684a0cdd977cb1035e7e241f5173
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 53e5853294936170584dae2af8214cf2
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -200,15 +733,15 @@ Session ID: 9c48684a0cdd977cb1035e7e241f5173
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at pages.Motorcycle.EnterProductData.ClickPrev(EnterProductData.java:153)
-	at testScripts.Motorcycle.EnterProductData.verifyOnClickPrevButton(EnterProductData.java:117)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace467401150", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace467401150'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;preventerinsurancedata&quot; name=&quot;Prev (Enter Insurance Data)&quot; type=&quot;button&quot; class=&quot;prev&quot;&gt;...&lt;/button&gt; is not clickable at point (393, 401). Other element would receive the click: &lt;div id=&quot;ui-datepicker-div&quot; class=&quot;ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all&quot; style=&quot;position: absolute; top: 354.594px; left: 345.5px; z-index: 1; display: block; width: 290px;&quot;&gt;...&lt;/div&gt;
+	at testScripts.Motorcycle.EnterProductData.verifyOnClickPrevButton(EnterProductData.java:118)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2036704540", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2036704540'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;preventerinsurancedata&quot; name=&quot;Prev (Enter Insurance Data)&quot; type=&quot;button&quot; class=&quot;prev&quot;&gt;...&lt;/button&gt; is not clickable at point (392, 415). Other element would receive the click: &lt;div id=&quot;ui-datepicker-div&quot; class=&quot;ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all&quot; style=&quot;position: absolute; top: 362.594px; left: 345.5px; z-index: 1; display: block; width: 290px;&quot;&gt;...&lt;/div&gt;
   (Session info: chrome=84.0.4147.135)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
 System info: host: &apos;A&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 9c48684a0cdd977cb1035e7e241f5173
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.135, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 53e5853294936170584dae2af8214cf2
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -222,7 +755,7 @@ Session ID: 9c48684a0cdd977cb1035e7e241f5173
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at pages.Motorcycle.EnterProductData.ClickPrev(EnterProductData.java:153)
-	at testScripts.Motorcycle.EnterProductData.verifyOnClickPrevButton(EnterProductData.java:117)
+	at testScripts.Motorcycle.EnterProductData.verifyOnClickPrevButton(EnterProductData.java:118)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -250,7 +783,48 @@ Session ID: 9c48684a0cdd977cb1035e7e241f5173
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
 <td>1</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.EnterInsuranceData.verifyPrevButtonText()'><b>verifyPrevButtonText</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testScripts.Motorcycle.EnterInsuranceData.verifyPrevButtonText(EnterInsuranceData.java:91)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1313618488", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1313618488'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:305)
+	at org.testng.Assert.assertEquals(Assert.java:315)
+	at testScripts.Motorcycle.EnterInsuranceData.verifyPrevButtonText(EnterInsuranceData.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:823)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:778)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -263,382 +837,362 @@ Session ID: 9c48684a0cdd977cb1035e7e241f5173
 <td title='testScripts.Motorcycle.EnterProductData.checkNextLabelInsSum()'><b>checkNextLabelInsSum</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.damageInsuranceLabelVisible()'><b>damageInsuranceLabelVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
-<tr>
-<td title='testScripts.Motorcycle.SendQuote.enterandVerifySendQuotesPage()'><b>enterandVerifySendQuotesPage</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
-<td></td>
-<td>8</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.isCalendarButtonClickable()'><b>isCalendarButtonClickable</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.isDamageInsuranceDropDownVisible()'><b>isDamageInsuranceDropDownVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.isHobbiesCheckBoxVisible()'><b>isHobbiesCheckBoxVisible</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.isHobbiesLabelVisible()'><b>isHobbiesLabelVisible</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.isInsuranceSumDropDownVisible()'><b>isInsuranceSumDropDownVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.isInsuranceSumLabelVisible()'><b>isInsuranceSumLabelVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.isNextButtonVisible()'><b>isNextButtonVisible</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.isNextButtonVisible()'><b>isNextButtonVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.isOptionalProductTextBoxVisible()'><b>isOptionalProductTextBoxVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.isOptionalProductsLabelVisible()'><b>isOptionalProductsLabelVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.isPictureLabelVisible()'><b>isPictureLabelVisible</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.isPrevButtonVisible()'><b>isPrevButtonVisible</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.isPrevButtonVisible()'><b>isPrevButtonVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.isStartDateLabelVisible()'><b>isStartDateLabelVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.isStartDateTextBoxVisible()'><b>isStartDateTextBoxVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.isWebsiteLabelVisible()'><b>isWebsiteLabelVisible</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.isWebsiteTextBoxVisible()'><b>isWebsiteTextBoxVisible</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.validDamageInsuranceDropDownSelection()'><b>validDamageInsuranceDropDownSelection</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.validHobbiesSelection()'><b>validHobbiesSelection</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.validInsuranceDropDown()'><b>validInsuranceDropDown</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyAnnualMileageSelection()'><b>verifyAnnualMileageSelection</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
-<td>2</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>1</td>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyCylinderCapacitySelection()'><b>verifyCylinderCapacitySelection</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>1</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyDateOfmanufacture()'><b>verifyDateOfmanufacture</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>1</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyEnginePerformanceSelection()'><b>verifyEnginePerformanceSelection</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>1</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
+<tr>
+<td title='testScripts.HomePage.HomePage.verifyHomepagetext()'><b>verifyHomepagetext</b><br>Test class: testScripts.HomePage.HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsAnnualMileageVisible()'><b>verifyIsAnnualMileageVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsAnnualMileagetext()'><b>verifyIsAnnualMileagetext</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsCommentsVisible()'><b>verifyIsCommentsVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td title='testScripts.HomePage.HomePage.verifyIsAutomobileClickable()'><b>verifyIsAutomobileClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>3</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsConfirmpasswordVisible()'><b>verifyIsConfirmpasswordVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td title='testScripts.HomePage.HomePage.verifyIsCamperClickable()'><b>verifyIsCamperClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>3</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsCylinderCapacityVisible()'><b>verifyIsCylinderCapacityVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsCylinderCapacitytext()'><b>verifyIsCylinderCapacitytext</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsDateOfManufacturetext()'><b>verifyIsDateOfManufacturetext</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
-<tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsEmailVisible()'><b>verifyIsEmailVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
-<td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsEnginePerformanceVisible()'><b>verifyIsEnginePerformanceVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsEnginePerformancetext()'><b>verifyIsEnginePerformancetext</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
+<tr>
+<td title='testScripts.HomePage.HomePage.verifyIsHomepageVisible()'><b>verifyIsHomepageVisible</b><br>Test class: testScripts.HomePage.HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsListPriceVisible()'><b>verifyIsListPriceVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsListpricetext()'><b>verifyIsListpricetext</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
-<tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsMainpageVisible()'><b>verifyIsMainpageVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
-<td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsMakeVisible()'><b>verifyIsMakeVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsMaketext()'><b>verifyIsMaketext</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsModelVisible()'><b>verifyIsModelVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsModeltext()'><b>verifyIsModeltext</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsNewautomobileinsuranceVisible()'><b>verifyIsNewautomobileinsuranceVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td title='testScripts.HomePage.HomePage.verifyIsMotorcycleClickable()'><b>verifyIsMotorcycleClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>3</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsNewcamperinsuranceVisible()'><b>verifyIsNewcamperinsuranceVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td title='testScripts.HomePage.HomePage.verifyIsNav_facebookClickable()'><b>verifyIsNav_facebookClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>4</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsNewtruckinsuranceVisible()'><b>verifyIsNewtruckinsuranceVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td title='testScripts.HomePage.HomePage.verifyIsNav_googleClickable()'><b>verifyIsNav_googleClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>5</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
+<tr>
+<td title='testScripts.HomePage.HomePage.verifyIsNav_twitterClickable()'><b>verifyIsNav_twitterClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
+<td></td>
+<td>4</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsNextButtonVisible()'><b>verifyIsNextButtonVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsNextButtontext()'><b>verifyIsNextButtontext</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsNumberOfSeatsVisible()'><b>verifyIsNumberOfSeatsVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsNumberofSeatstext()'><b>verifyIsNumberofSeatstext</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsOpenDateOfCalenderButtonVisible()'><b>verifyIsOpenDateOfCalenderButtonVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsOpenNextButtonVisible()'><b>verifyIsOpenNextButtonVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsOpenNextClickable()'><b>verifyIsOpenNextClickable</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsOpenPrevButtonVisible()'><b>verifyIsOpenPrevButtonVisible</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsOpenPrevClickable()'><b>verifyIsOpenPrevClickable</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsOpendateOfcalenderClickable()'><b>verifyIsOpendateOfcalenderClickable</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsPasswordVisible()'><b>verifyIsPasswordVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td title='testScripts.HomePage.HomePage.verifyIsSearchsupportClickable()'><b>verifyIsSearchsupportClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
-<tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsPhoneVisible()'><b>verifyIsPhoneVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
-<td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
-<tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsPrevVisible()'><b>verifyIsPrevVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
-<td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>16</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsSelectMaker1Selectable()'><b>verifyIsSelectMaker1Selectable</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>3</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsSelectMaker2Selectable()'><b>verifyIsSelectMaker2Selectable</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>3</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyIsSelectMakerSelectable()'><b>verifyIsSelectMakerSelectable</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>3</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoption1Clickable()'><b>verifyIsSelectpriceoption1Clickable</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td title='testScripts.HomePage.HomePage.verifyIsTricentis_aboutClickable()'><b>verifyIsTricentis_aboutClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SelectPriceOption@5b275dab</td></tr>
+<td>14</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoption1text()'><b>verifyIsSelectpriceoption1text</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td title='testScripts.HomePage.HomePage.verifyIsTricentis_eventsClickable()'><b>verifyIsTricentis_eventsClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SelectPriceOption@5b275dab</td></tr>
+<td>6</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoptionClickable()'><b>verifyIsSelectpriceoptionClickable</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td title='testScripts.HomePage.HomePage.verifyIsTricentis_productsClickable()'><b>verifyIsTricentis_productsClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SelectPriceOption@5b275dab</td></tr>
+<td>5</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoptionVisible()'><b>verifyIsSelectpriceoptionVisible</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td title='testScripts.HomePage.HomePage.verifyIsTricentis_resourcesClickable()'><b>verifyIsTricentis_resourcesClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SelectPriceOption@5b275dab</td></tr>
+<td>8</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoptiontext()'><b>verifyIsSelectpriceoptiontext</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td title='testScripts.HomePage.HomePage.verifyIsTricentis_servicesClickable()'><b>verifyIsTricentis_servicesClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SelectPriceOption@5b275dab</td></tr>
+<td>5</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsSendemailVisible()'><b>verifyIsSendemailVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td title='testScripts.HomePage.HomePage.verifyIsTruckClickable()'><b>verifyIsTruckClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>3</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
-<td title='testScripts.Motorcycle.SendQuote.verifyIsUsernameVisible()'><b>verifyIsUsernameVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td title='testScripts.HomePage.HomePage.verifyIsVisitsupportClickable()'><b>verifyIsVisitsupportClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.SendQuote@61832929</td></tr>
+<td>5</td>
+<td>testScripts.HomePage.HomePage@29774679</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterVehicleData.verifyListPriceSelection()'><b>verifyListPriceSelection</b><br>Test class: testScripts.Motorcycle.EnterVehicleData</td>
 <td></td>
 <td>1</td>
-<td>testScripts.Motorcycle.EnterVehicleData@28d25987</td></tr>
+<td>testScripts.Motorcycle.EnterVehicleData@3ffc5af1</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.verifyNextButtonText()'><b>verifyNextButtonText</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.verifyNextButtonText()'><b>verifyNextButtonText</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
-<tr>
-<td title='testScripts.Motorcycle.EnterInsuranceData.verifyOnClickPrevButton()'><b>verifyOnClickPrevButton</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
-<td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
-<tr>
-<td title='testScripts.Motorcycle.EnterInsuranceData.verifyPrevButtonText()'><b>verifyPrevButtonText</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
-<td></td>
-<td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.verifyPrevButtonText()'><b>verifyPrevButtonText</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -651,8 +1205,8 @@ Session ID: 9c48684a0cdd977cb1035e7e241f5173
 <td title='testScripts.Motorcycle.EnterProductData.damageInsuranceOptionsVisible()'><b>damageInsuranceOptionsVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td><div><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.damageInsuranceOptions() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace651235118", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace651235118'><pre>org.testng.TestNGException: 
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1311052922", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1311052922'><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.damageInsuranceOptions() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
@@ -678,13 +1232,13 @@ Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.hobbiesOptionsVisible()'><b>hobbiesOptionsVisible</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td><div><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.hobbiesOptions() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1187779195", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1187779195'><pre>org.testng.TestNGException: 
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace16736375", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace16736375'><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.hobbiesOptions() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
@@ -710,13 +1264,13 @@ Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceDat
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.hobbiesOptionsVisible()'><b>hobbiesOptionsVisible</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td><div><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.insuranceSumOptions() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2111247080", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2111247080'><pre>org.testng.TestNGException: 
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1734343965", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1734343965'><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.insuranceSumOptions() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
@@ -742,13 +1296,13 @@ Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.invalidWebsitentry()'><b>invalidWebsitentry</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td><div><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.invalidWebsiteTestData() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1523510420", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1523510420'><pre>org.testng.TestNGException: 
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1152380885", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1152380885'><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.invalidWebsiteTestData() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
@@ -774,13 +1328,13 @@ Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceDat
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterProductData.validStartDateText()'><b>validStartDateText</b><br>Test class: testScripts.Motorcycle.EnterProductData</td>
 <td><div><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.startDateValid() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace422134367", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace422134367'><pre>org.testng.TestNGException: 
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace859617558", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace859617558'><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.startDateValid() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
@@ -806,13 +1360,13 @@ Data Provider public java.lang.String[] testScripts.Motorcycle.EnterProductData.
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterProductData@523884b2</td></tr>
+<td>testScripts.Motorcycle.EnterProductData@26653222</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.EnterInsuranceData.validWebsiteEntry()'><b>validWebsiteEntry</b><br>Test class: testScripts.Motorcycle.EnterInsuranceData</td>
 <td><div><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.validWebsiteTestData() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1365790282", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1365790282'><pre>org.testng.TestNGException: 
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1694519286", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1694519286'><pre>org.testng.TestNGException: 
 Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceData.validWebsiteTestData() throws java.io.IOException must return either Object[][] or Iterator&lt;Object&gt;[], not class [Ljava.lang.String;
 	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:157)
 	at org.testng.internal.Parameters.handleParameters(Parameters.java:430)
@@ -838,7 +1392,32 @@ Data Provider public java.lang.String[] testScripts.Motorcycle.EnterInsuranceDat
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
 </pre></div></td>
 <td>0</td>
-<td>testScripts.Motorcycle.EnterInsuranceData@4501b7af</td></tr>
+<td>testScripts.Motorcycle.EnterInsuranceData@5e5792a0</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoption1Clickable()'><b>verifyIsSelectpriceoption1Clickable</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SelectPriceOption@3532ec19</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoption1text()'><b>verifyIsSelectpriceoption1text</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SelectPriceOption@3532ec19</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoptionClickable()'><b>verifyIsSelectpriceoptionClickable</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SelectPriceOption@3532ec19</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoptionVisible()'><b>verifyIsSelectpriceoptionVisible</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SelectPriceOption@3532ec19</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoptiontext()'><b>verifyIsSelectpriceoptiontext</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SelectPriceOption@3532ec19</td></tr>
 </table><p>
 </body>
 </html>

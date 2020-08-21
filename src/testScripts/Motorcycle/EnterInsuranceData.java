@@ -26,6 +26,7 @@ public class EnterInsuranceData extends PreconditionMotorcycle {
 	@BeforeClass
 	public void navigateToEnterInsuranceData() throws InterruptedException {
 		Thread.sleep(5000);
+		motorEnterInsuranceData = new pages.Motorcycle.EnterInsuranceData(dr);
 		motorEnterInsuranceData.navigateToEnterInsuranceData();
 	}
 
