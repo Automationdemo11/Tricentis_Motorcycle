@@ -8,24 +8,14 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import configuration.Configuration;
+import libraries.Xls_Reader;
+
 public class EnterInsuranceData extends PreconditionMotorcycle {
-
-	/*
-	 * public WebDriver dr;
-	 * 
-	 * @BeforeTest
-	 * 
-	 * @Parameters("browser") public void launchBrowser(String browser) { dr =
-	 * lib.launchBrowser(browser); motorEnterInsuranceData = new
-	 * pages.Motorcycle.EnterInsuranceData(dr); motorEnterVehicleData = new
-	 * pages.Motorcycle.EnterVehicleData(dr); motorEnterProductData = new
-	 * pages.Motorcycle.EnterProductData(dr); homePage.clickMotorcycle(); //
-	 * dr.findElement(motorcycle).click(); }
-	 */
-
+	
 	@BeforeClass
 	public void navigateToEnterInsuranceData() throws InterruptedException {
-		Thread.sleep(5000);
+		Thread.sleep(3000);
 		motorEnterInsuranceData.navigateToEnterInsuranceData();
 	}
 
@@ -107,7 +97,7 @@ public class EnterInsuranceData extends PreconditionMotorcycle {
 		Assert.assertEquals(motorEnterInsuranceData.verifyNextButtonText(), true);
 	}
 	
-/*	@Test(priority = 1)
+	@Test(priority = 1)
 	public void verifyOnClickNextButton() throws InterruptedException {
 		Thread.sleep(2000);
 		motorEnterInsuranceData.ClickNext();
@@ -116,7 +106,7 @@ public class EnterInsuranceData extends PreconditionMotorcycle {
 		boolean nextPageElementStatus = motorEnterProductData.verifyStartLabelVisibility();
 		result = navigatorStatus && nextPageElementStatus;
 		Assert.assertEquals(result, true);
-	}*/
+	}
 
 	@DataProvider
 	public String[] validWebsiteTestData() throws IOException {
