@@ -1,86 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Motorcycle(failed)">
     <parameter name="browser" value="Chrome"/>
     <classes>
-<<<<<<< HEAD
-      <class name="testScripts.Motorcycle.EnterInsuranceData">
-        <methods>
-          <include name="selectPicture"/>
-=======
-      <class name="testScripts.Motorcycle.EnterVehicleData">
-        <methods>
-          <include name="verifyIsNextClickable"/>
-          <include name="navigateToEnterVehicleData"/>
-        </methods>
-      </class> <!-- testScripts.Motorcycle.EnterVehicleData -->
-      <class name="testScripts.Motorcycle.PreconditionMotorcycle">
-        <methods>
->>>>>>> af3df79d5ca505e6819af0d6e32521094b9e329f
-          <include name="initialize"/>
-          <include name="tearDown"/>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-<<<<<<< HEAD
-          <include name="navigateToEnterInsuranceData"/>
-=======
-        </methods>
-      </class> <!-- testScripts.Motorcycle.PreconditionMotorcycle -->
-      <class name="testScripts.Motorcycle.EnterInsuranceData">
-        <methods>
-          <include name="hobbiesOptionsVisible"/>
-          <include name="verifyPrevButtonText"/>
-          <include name="selectPicture"/>
-          <include name="verifyOnClickPrevButton"/>
-          <include name="validWebsiteEntry"/>
-          <include name="invalidWebsitentry"/>
-          <include name="navigateToEnterInsuranceData"/>
-        </methods>
-      </class> <!-- testScripts.Motorcycle.EnterInsuranceData -->
-      <class name="testScripts.Motorcycle.EnterProductData">
-        <methods>
-          <include name="damageInsuranceOptionsVisible"/>
-          <include name="validStartDateText"/>
-          <include name="hobbiesOptionsVisible"/>
-          <include name="beforeProductData"/>
-          <include name="verifyOnClickPrevButton"/>
-        </methods>
-      </class> <!-- testScripts.Motorcycle.EnterProductData -->
-      <class name="testScripts.Motorcycle.SelectPriceOption">
-        <methods>
-          <include name="verifyIsSelectpriceoptionVisible"/>
-          <include name="verifyIsSelectpriceoption1text"/>
-          <include name="verifyIsSelectpriceoptionClickable"/>
-          <include name="verifyIsSelectpriceoption1Clickable"/>
-          <include name="verifyIsSelectpriceoptiontext"/>
-          <include name="preClass"/>
-        </methods>
-      </class> <!-- testScripts.Motorcycle.SelectPriceOption -->
-      <class name="testScripts.HomePage.HomePage">
-        <methods>
-          <include name="launchBrowser"/>
->>>>>>> af3df79d5ca505e6819af0d6e32521094b9e329f
-        </methods>
-      </class> <!-- testScripts.HomePage.HomePage -->
       <class name="testScripts.Motorcycle.SendQuote">
         <methods>
           <include name="verifyIsPhoneVisible"/>
           <include name="verifyIsUsernameVisible"/>
           <include name="verifyIsEmailVisible"/>
           <include name="beforeProductData"/>
-          <include name="enterandVerifySendQuotesPage"/>
+          <include name="initialize"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
           <include name="verifyIsConfirmpasswordVisible"/>
           <include name="verifyIsNewautomobileinsuranceVisible"/>
           <include name="verifyIsPrevVisible"/>
           <include name="verifyIsSendemailVisible"/>
           <include name="verifyIsPasswordVisible"/>
+          <include name="tearDown"/>
           <include name="verifyIsNewcamperinsuranceVisible"/>
           <include name="verifyIsNewtruckinsuranceVisible"/>
           <include name="verifyIsMainpageVisible"/>
           <include name="verifyIsCommentsVisible"/>
         </methods>
       </class> <!-- testScripts.Motorcycle.SendQuote -->
+      <class name="testScripts.Motorcycle.EnterProductData">
+        <methods>
+          <include name="isInsuranceSumLabelVisible"/>
+          <include name="isStartDateLabelVisible"/>
+          <include name="closeBrowser"/>
+          <include name="isOptionalProductTextBoxVisible"/>
+          <include name="isCalendarButtonClickable"/>
+          <include name="damageInsuranceLabelVisible"/>
+          <include name="damageInsuranceOptionsVisible"/>
+          <include name="isNextButtonVisible"/>
+          <include name="isInsuranceSumDropDownVisible"/>
+          <include name="verifyPrevButtonText"/>
+          <include name="isOptionalProductsLabelVisible"/>
+          <include name="verifyNextButtonText"/>
+          <include name="initialize"/>
+          <include name="checkNextLabelInsSum"/>
+          <include name="validStartDateText"/>
+          <include name="isPrevButtonVisible"/>
+          <include name="isStartDateTextBoxVisible"/>
+          <include name="launchBrowser"/>
+          <include name="isDamageInsuranceDropDownVisible"/>
+          <include name="tearDown"/>
+          <include name="validInsuranceDropDown"/>
+          <include name="hobbiesOptionsVisible"/>
+          <include name="validDamageInsuranceDropDownSelection"/>
+          <include name="beforeProductData"/>
+          <include name="verifyOnClickPrevButton"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterProductData -->
+      <class name="testScripts.Motorcycle.EnterInsuranceData">
+        <methods>
+          <include name="hobbiesOptionsVisible"/>
+          <include name="verifyPrevButtonText"/>
+          <include name="selectPicture"/>
+          <include name="isNextButtonVisible"/>
+          <include name="verifyOnClickPrevButton"/>
+          <include name="initialize"/>
+          <include name="verifyNextButtonText"/>
+          <include name="isWebsiteTextBoxVisible"/>
+          <include name="isWebsiteLabelVisible"/>
+          <include name="closeBrowser"/>
+          <include name="isPictureLabelVisible"/>
+          <include name="launchBrowser"/>
+          <include name="isHobbiesLabelVisible"/>
+          <include name="validHobbiesSelection"/>
+          <include name="invalidWebsitentry"/>
+          <include name="isPrevButtonVisible"/>
+          <include name="tearDown"/>
+          <include name="validWebsiteEntry"/>
+          <include name="isHobbiesCheckBoxVisible"/>
+          <include name="navigateToEnterInsuranceData"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterInsuranceData -->
+      <class name="testScripts.Motorcycle.EnterVehicleData">
+        <methods>
+          <include name="verifyIsListPriceVisible"/>
+          <include name="verifyIsListpricetext"/>
+          <include name="verifyCylinderCapacitySelection"/>
+          <include name="verifyIsOpenPrevButtonVisible"/>
+          <include name="verifyIsSelectModelMakerSelectable"/>
+          <include name="closeBrowser"/>
+          <include name="verifyIsModeltext"/>
+          <include name="navigateToEnterVehicleData"/>
+          <include name="verifyIsEnginePerformanceVisible"/>
+          <include name="verifyIsOpenDateOfCalenderButtonVisible"/>
+          <include name="verifyIsAnnualMileagetext"/>
+          <include name="verifyListPriceSelection"/>
+          <include name="verifyIsModelVisible"/>
+          <include name="verifyIsAnnualMileageVisible"/>
+          <include name="verifyIsMaketext"/>
+          <include name="verifyIsNextButtonVisible"/>
+          <include name="verifyIsMakeVisible"/>
+          <include name="initialize"/>
+          <include name="verifyIsCylinderCapacitytext"/>
+          <include name="verifyIsCylinderCapacityVisible"/>
+          <include name="verifyIsDateOfManufacturetext"/>
+          <include name="launchBrowser"/>
+          <include name="verifyIsNextButtontext"/>
+          <include name="verifyIsSelectMakeMakerSelectable"/>
+          <include name="verifyIsNumberofSeatstext"/>
+          <include name="verifyIsOpenNextButtonVisible"/>
+          <include name="verifyAnnualMileageSelection"/>
+          <include name="tearDown"/>
+          <include name="verifyEnginePerformanceSelection"/>
+          <include name="verifyDateOfmanufacture"/>
+          <include name="verifyIsNumberOfSeatsVisible"/>
+          <include name="verifyIsSelectnumberofseatsSelectable"/>
+          <include name="verifyIsEnginePerformancetext"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterVehicleData -->
+      <class name="testScripts.Motorcycle.SelectPriceOption">
+        <methods>
+          <include name="verifyIsSelectpriceoptionVisible"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="closeBrowser"/>
+          <include name="preClass"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.SelectPriceOption -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Motorcycle(failed) -->
 </suite> <!-- Failed suite [Suite] -->

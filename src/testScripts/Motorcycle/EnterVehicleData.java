@@ -1,21 +1,11 @@
 package testScripts.Motorcycle;
 
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class EnterVehicleData extends PreconditionMotorcycle {
-//	WebDriver dr;
-	 pages.HomePage homePage;
-	// EnterVehicleData motorcycleEnterVehicleData;
-	
 
-	@BeforeClass
-	public void navigateToEnterVehicleData() throws InterruptedException {
-		homePage=new pages.HomePage(dr);
-		homePage.clickMotorcycle();
-		Thread.sleep(3000);
-		motorEnterVehicleData = new pages.Motorcycle.EnterVehicleData(dr);
+	public void navigateToEnterVehicleData() {
 		motorEnterVehicleData.navigateToEnterVehicleData();
 	}
 
@@ -57,6 +47,10 @@ public class EnterVehicleData extends PreconditionMotorcycle {
 		Assert.assertEquals(motorEnterVehicleData.isEnginePerformanceTextboxDisplayed(), true);
 	}
 
+	public void verifyIsDateOfManufactureVisible() {
+		Assert.assertEquals(motorEnterVehicleData.isDateofManufactureTextboxDispiayed(), true);
+	}
+
 	@Test
 	public void verifyIsAnnualMileageVisible() {
 		Assert.assertEquals(motorEnterVehicleData.isAnnualMileageTextboxDispiayed(), true);
@@ -83,18 +77,19 @@ public class EnterVehicleData extends PreconditionMotorcycle {
 	}
 
 	@Test
-	public void verifyIsSelectMakerSelectable() throws InterruptedException {
-		motorEnterVehicleData.MakeselectMaker();
+	public void verifyIsSelectMakeMakerSelectable() {
+		motorEnterVehicleData.Makeselectmaker("BMW");
+
 	}
 
 	@Test
-	public void verifyIsSelectMaker1Selectable() throws InterruptedException {
-		motorEnterVehicleData.ModelselectMaker();
+	public void verifyIsSelectModelMakerSelectable() {
+		motorEnterVehicleData.ModelselectMaker("Scooter");
 	}
 
 	@Test
-	public void verifyIsSelectMaker2Selectable() throws InterruptedException {
-		motorEnterVehicleData.NumberOfSeatsselectMaker();
+	public void verifyIsSelectnumberofseatsSelectable() {
+		motorEnterVehicleData.NumberOfSeatsselectMaker("2");
 	}
 
 	@Test
@@ -172,6 +167,7 @@ public class EnterVehicleData extends PreconditionMotorcycle {
 	@Test(priority = 4)
 	public void verifyIsNextClickable() {
 		motorEnterVehicleData.clickNextButton();
+
 		Assert.assertEquals(motorEnterVehicleData.isMakeDropdownDisplayed(), true);
 	}
 

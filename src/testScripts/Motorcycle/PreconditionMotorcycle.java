@@ -19,23 +19,24 @@ public class PreconditionMotorcycle extends Driver {
 	static pages.Motorcycle.SendQuote sendquote;
 	static Xls_Reader xl;
 	static pages.HomePage homePage;
-	
+
 	@BeforeTest
 	@Parameters("browser")
 	public void launchBrowser(String browser) {
 		dr = lib.launchBrowser(browser);
 		xl = new Xls_Reader(Configuration.testDataPath);
-		homePage=new pages.HomePage(dr);
+		homePage = new pages.HomePage(dr);
 		motorEnterInsuranceData = new pages.Motorcycle.EnterInsuranceData(dr);
 		motorEnterVehicleData = new pages.Motorcycle.EnterVehicleData(dr);
 		motorEnterProductData = new pages.Motorcycle.EnterProductData(dr);
 		selectpriceoption = new pages.Motorcycle.SelectPriceOption(dr);
 		sendquote = new pages.Motorcycle.SendQuote(dr);
-		
+		homePage.clickMotorcycle();
+
 	}
-	
-	@AfterTest
+
+/*	@AfterTest
 	public void closeBrowser() {
 		dr.quit();
-	}
+	}*/
 }

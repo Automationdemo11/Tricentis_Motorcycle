@@ -5,10 +5,15 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
+import driver.Driver;
 import libraries.CommonLibrary;
 
 public class EnterVehicleData {
+
 	WebDriver dr;
 	CommonLibrary lib = new CommonLibrary();
 
@@ -16,12 +21,14 @@ public class EnterVehicleData {
 		this.dr = dr;
 	}
 
+	By entervehicledata = By.xpath("//a[@id='entervehicledata']");
+
 	public void navigateToEnterVehicleData() {
 		dr.findElement(entervehicledata);
 	}
 
 	By motorcycle = By.xpath("//a[@id='nav_motorcycle']");
-	By entervehicledata = By.xpath("//a[@id='entervehicledata']");
+
 	By make = By.xpath("//select[@id='make']");
 	By model = By.xpath("//select[@id='model']");
 	By cylindercapacity = By.xpath("//input[@id='cylindercapacity']");
@@ -32,12 +39,12 @@ public class EnterVehicleData {
 	By annualmileage = By.xpath("//input[@id='annualmileage']");
 	By next = By.xpath("//button[@id='nextenterinsurantdata']");
 	By ListPrice = By.xpath("//label[text()='List Price [$]']");
-	By CylinderCapacity = By.xpath("//label[text()='Cylinder Capacity [ccm]']");
-	By AnnualMileage = By.xpath("//label[text()='Annual Mileage [mi]']");
-	By NumberOfSeat = By.xpath("//label[text()='Number of Seats']");
-	By Engineperformance = By.xpath("//label[text()='Engine Performance [kW]']");
-	By DateOfManufacture = By.xpath("//label[text()='Date of Manufacture']");
-	By NextButton = By.xpath("//button[text()='Next »']");
+	By CylinderCapacity = By.xpath("//label[text()='Cylinder Capacity [ccm]']	");
+	By AnnualMileage = By.xpath("//label[text()='Annual Mileage [mi]']	");
+	By NumberOfSeat = By.xpath("//label[text()='Number of Seats']	");
+	By Engineperformance = By.xpath("//label[text()='Engine Performance [kW]']	");
+	By DateOfManufacture = By.xpath("//label[text()='Date of Manufacture']	");
+	By NextButton = By.xpath("//button[text()='Next »']	");
 	By Model = By.xpath("//label[text()='Model']");
 	By Make = By.xpath("//label[@class='main']");
 	By OpenDateOfcalenderButton = By.xpath("//i[@class='fa fa-calendar-plus-o']");
@@ -82,6 +89,10 @@ public class EnterVehicleData {
 		return lib.isElementPresent(dr, annualmileage);
 	}
 
+	public boolean isDateofManufactureTextboxDispiayed() {
+		return lib.isElementPresent(dr, dateofmanufacture);
+	}
+
 	public boolean isNextButtonDisplayed() {
 		return lib.isElementPresent(dr, next);
 	}
@@ -90,45 +101,32 @@ public class EnterVehicleData {
 		return lib.isElementPresent(dr, OpenDateOfcalenderButton);
 	}
 
-	public void MakeselectMaker() throws InterruptedException {
+	public void Makeselectmaker(String visibleText) {
+
+		Assert.assertEquals(true, lib.isElementPresent(dr, make));
+
+		lib.selectByVisibleText(dr, make, visibleText);
+	}
+
+	public void ModelselectMaker(String visibleText) {
+
+		// Verify element is present
+		Assert.assertEquals(true, lib.isElementPresent(dr, model));
+
+		lib.selectByVisibleText(dr, model, visibleText);
+
 		/*
-		 * //Verify element is present Assert.assertEquals(true,
-		 * lib.isElementPresent(dr, make)); //lib.isElementPresent(dr, make); //Select
-		 * value lib.selectByVisibleText(dr, make, visibleText);
+		 * WebElement makeDropDown=dr.findElement(By.xpath("//select[@id='model']"));
+		 * Select sel1=new Select(makeDropDown); sel1.selectByIndex(2);
+		 * Thread.sleep(3000);
 		 */
-		WebElement makeDropDown = dr.findElement(By.xpath("//select[@id='make']"));
-		Select sel = new Select(makeDropDown);
-		sel.selectByIndex(4);
-		Thread.sleep(3000);
 
 	}
 
-	public void ModelselectMaker() throws InterruptedException {
-		/*
-		 * //Verify element is present Assert.assertEquals(true,
-		 * lib.isElementPresent(dr, model));
-		 * 
-		 * //Select value lib.selectByVisibleText(dr, model, visibleText);
-		 */
-		WebElement makeDropDown = dr.findElement(By.xpath("//select[@id='model']"));
-		Select sel1 = new Select(makeDropDown);
-		sel1.selectByIndex(2);
-		Thread.sleep(3000);
+	public void NumberOfSeatsselectMaker(String visibleText) {
+		Assert.assertEquals(true, lib.isElementPresent(dr, numberofseatsmotorcycle));
 
-	}
-
-	public void NumberOfSeatsselectMaker() throws InterruptedException {
-		/*
-		 * //Verify element is present Assert.assertEquals(true,
-		 * lib.isElementPresent(dr, numberofseatsmotorcycle));
-		 * 
-		 * //Select value lib.selectByVisibleText(dr, numberofseatsmotorcycle,
-		 * visibleText);
-		 */
-		WebElement makeDropDown = dr.findElement(By.xpath("//select[@id='numberofseatsmotorcycle']"));
-		Select sel = new Select(makeDropDown);
-		sel.selectByIndex(2);
-		Thread.sleep(3000);
+		lib.selectByVisibleText(dr, numberofseatsmotorcycle, visibleText);
 	}
 
 	public void enterEnginePerformace(String EnginePerformanceinkW) {
@@ -162,15 +160,6 @@ public class EnterVehicleData {
 		dr.findElement(cylindercapacity).sendKeys("1500");
 		Assert.assertEquals(dr.findElement(CylinderCapacityError).isDisplayed(), false);
 	}
-
-	/*
-	 * public boolean validCylinderCapacitEntry(String CylinderCapacit) {
-	 * dr.findElement(cylindercapacity).clear();
-	 * dr.findElement(cylindercapacity).sendKeys(CylinderCapacit); String
-	 * CylnderCapacity = dr.findElement(CylinderCapacity).getText(); String path =
-	 * lib.validationXpath(CylinderCapacit); return lib.verifyValidSelections(dr,
-	 * path); }
-	 */
 
 	public void enterListPrice(String ListPricein$) {
 
