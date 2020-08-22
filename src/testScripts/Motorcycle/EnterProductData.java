@@ -96,11 +96,10 @@ public class EnterProductData extends PreconditionMotorcycle {
 		Assert.assertEquals(motorEnterProductData.verifyOptionalProductTextBoxVisibility(), true);
 	}
 
-	/*
-	 * @Test public void validOptionalProductSelection() {
-	 * Assert.assertEquals(motorEnterProductData.
-	 * validateOptionalProductCheckBoxSelection(), true); }
-	 */
+/*	@Test
+	public void validOptionalProductSelection() {
+		Assert.assertEquals(motorEnterProductData.validateOptionalProductCheckBoxSelection(), true);
+	}*/
 
 	@Test
 	public void isPrevButtonVisible() {

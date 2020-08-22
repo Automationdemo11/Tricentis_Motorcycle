@@ -39,8 +39,15 @@ public class EnterInsuranceData {
 
 	By lastNameLabel = By.xpath("//label[text()='Last Name']");
 	By lastNameTextBox = By.xpath("//input[@id='lastname']");
+	
+	By countryLabel = By.xpath("//label[text()='Country']");
+	By countryDropDown = By.xpath("//select[@id='country']");
+	
+	By zipCodeLabel = By.xpath("//label[text()='Zip Code']");
+	By zipCodeTextBox = By.xpath("//input[@id='zipcode']");
 
 	By occupationLabel = By.xpath("//label[text()='Occupation']");
+	By occupationDropDown = By.xpath("//select[@id='occupation']");
 
 	By hobbiesLabel = By.xpath("//label[text()='Hobbies']");
 	By hobbiesCheckBox = By.xpath("//label[text()='Hobbies']/../p");
@@ -181,6 +188,31 @@ public class EnterInsuranceData {
 		String elementPath = "//option[text()='" + occupationOption + "']";
 		By hobbyOpt = By.xpath(elementPath);
 		return lib.isElementPresent(dr, hobbyOpt);
+	}
+
+	public boolean validateOccupationSelection() {
+		dr.findElement(occupationDropDown).click();
+		lib.selectByVisibleText(dr, occupationDropDown, "Employee");
+		String occupationLabelText = dr.findElement(occupationLabel).getText();
+		By ele = lib.validationXpath(occupationLabelText);
+		return lib.isElementPresent(dr, ele);
+	}
+
+	public boolean validateCountrySelection() {
+		dr.findElement(countryDropDown).click();
+		lib.selectByVisibleText(dr, countryDropDown, "India");
+		String countryLabelText = dr.findElement(countryLabel).getText();
+		By ele = lib.validationXpath(countryLabelText);
+		return lib.isElementPresent(dr, ele);
+	}
+
+	public boolean validateZipCode(String ZipCode) {
+		dr.findElement(zipCodeTextBox).clear();
+		dr.findElement(zipCodeTextBox).sendKeys(ZipCode);
+		String zipCodeLabelText = dr.findElement(zipCodeLabel).getText();
+		By ele = lib.validationXpath(zipCodeLabelText);
+		return lib.isElementPresent(dr, ele);
+		
 	}
 
 }

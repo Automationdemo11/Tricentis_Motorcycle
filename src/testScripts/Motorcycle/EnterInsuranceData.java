@@ -34,10 +34,30 @@ public class EnterInsuranceData extends PreconditionMotorcycle {
 	public void invalidLastName(String invalidLastName) {
 		Assert.assertEquals(motorEnterInsuranceData.validLastName(invalidLastName), false);
 	}
+	
+	@Test
+	public void validCountryDropDown() {
+		Assert.assertEquals(motorEnterInsuranceData.validateCountrySelection(), true);
+	}
 
+	@Test(dataProvider="validZipCodeEntry")
+	public void validZipCode(String validZipCode) {
+		Assert.assertEquals(motorEnterInsuranceData.validateZipCode(validZipCode), true);
+	}
+	
+	@Test(dataProvider="invalidZipCodeEntry")
+	public void invalidZipCode(String invalidZipCode) {
+		Assert.assertEquals(motorEnterInsuranceData.validateZipCode(invalidZipCode), false);
+	}
+	
 	@Test(dataProvider = "occupationOptions")
 	public void occupationOptionsVisible(String occupationOption) {
 		Assert.assertEquals(motorEnterInsuranceData.verifyOccupationOptions(occupationOption), true);
+	}
+	
+	@Test
+	public void validOccupationDropDown() {
+		Assert.assertEquals(motorEnterInsuranceData.validateOccupationSelection(), true);
 	}
 	
 	@Test
@@ -191,5 +211,17 @@ public class EnterInsuranceData extends PreconditionMotorcycle {
 			j++;
 		}
 		return occupationOptions;
+	}
+	
+	@DataProvider
+	public String[] validZipCodeEntry() {
+		String[] validZipCodes = {"4444", "88888888"};
+		return validZipCodes;
+	}
+	
+	@DataProvider
+	public String[] invalidZipCodeEntry() {
+		String[] validZipCodes = {"333", "888888889", "abcd", "122()"};
+		return validZipCodes;
 	}
 }
