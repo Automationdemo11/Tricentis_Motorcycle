@@ -9,12 +9,37 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class EnterInsuranceData extends PreconditionMotorcycle {
-	
+
 	@BeforeClass
 	public void navigateToEnterInsuranceData() throws InterruptedException {
 		motorEnterInsuranceData.navigateToEnterInsuranceData();
 	}
 
+	@Test(dataProvider="validNames")
+	public void validFirstName(String validFirstName) {
+		Assert.assertEquals(motorEnterInsuranceData.validFirstName(validFirstName), true);
+	}
+
+	@Test(dataProvider="invalidNames")
+	public void invalidFirstName(String invalidFirstName) {
+		Assert.assertEquals(motorEnterInsuranceData.validFirstName(invalidFirstName), false);
+	}
+	
+	@Test(dataProvider="validNames")
+	public void validLastName(String validLastName) {
+		Assert.assertEquals(motorEnterInsuranceData.validLastName(validLastName), true);
+	}
+
+	@Test(dataProvider="invalidNames")
+	public void invalidLastName(String invalidLastName) {
+		Assert.assertEquals(motorEnterInsuranceData.validLastName(invalidLastName), false);
+	}
+
+	@Test(dataProvider = "occupationOptions")
+	public void occupationOptionsVisible(String occupationOption) {
+		Assert.assertEquals(motorEnterInsuranceData.verifyOccupationOptions(occupationOption), true);
+	}
+	
 	@Test
 	public void isHobbiesLabelVisible() {
 
@@ -25,8 +50,8 @@ public class EnterInsuranceData extends PreconditionMotorcycle {
 	public void isHobbiesCheckBoxVisible() {
 		Assert.assertEquals(motorEnterInsuranceData.verifyHobbiesCheckBoxVisibility(), true);
 	}
-	
-	@Test(dataProvider="hobbiesOptions")
+
+	@Test(dataProvider = "hobbiesOptions")
 	public void hobbiesOptionsVisible(String hobbiesOption) {
 		Assert.assertEquals(motorEnterInsuranceData.verifyHobbiesOptions(hobbiesOption), true);
 	}
@@ -53,14 +78,14 @@ public class EnterInsuranceData extends PreconditionMotorcycle {
 
 	@Test(dataProvider = "invalidWebsiteTestData")
 	public void invalidWebsitentry(String invalidWebsite) throws InterruptedException {
-		Assert.assertEquals(motorEnterInsuranceData.invalidWebsiteEntry(invalidWebsite), false);
+		Assert.assertEquals(motorEnterInsuranceData.validWebsiteEntry(invalidWebsite), false);
 	}
 
 	@Test
 	public void isPictureLabelVisible() {
 		Assert.assertEquals(motorEnterInsuranceData.verifyPictureLabelVisibility(), true);
 	}
-	
+
 	@Test
 	public void selectPicture() throws InterruptedException, AWTException {
 		Assert.assertEquals(motorEnterInsuranceData.validPictureSelection(), true);
@@ -92,7 +117,7 @@ public class EnterInsuranceData extends PreconditionMotorcycle {
 	public void verifyNextButtonText() {
 		Assert.assertEquals(motorEnterInsuranceData.verifyNextButtonText(), true);
 	}
-	
+
 	@Test(priority = 1)
 	public void verifyOnClickNextButton() throws InterruptedException {
 		Thread.sleep(2000);
@@ -123,16 +148,48 @@ public class EnterInsuranceData extends PreconditionMotorcycle {
 		}
 		return data;
 	}
-	
+
 	@DataProvider
 	public String[] hobbiesOptions() throws IOException {
-		String hobbiesOptions[]=new String[5];
-		int j=0;
-		for(int i=11;i<16;i++) {
-			hobbiesOptions[j]=xl.getCellData("Test", i, 0);
+		String hobbiesOptions[] = new String[5];
+		int j = 0;
+		for (int i = 11; i < 16; i++) {
+			hobbiesOptions[j] = xl.getCellData("Test", i, 0);
 			j++;
 		}
 		return hobbiesOptions;
-		
+	}
+
+	@DataProvider
+	public String[] invalidNames() throws IOException {
+		String[] invalidFirstNames = new String[4];
+		int j = 0;
+		for (int i = 35; i < 39; i++) {
+			invalidFirstNames[j] = xl.getCellData("Test", i, 0);
+			j++;
+		}
+		return invalidFirstNames;
+	}
+	
+	@DataProvider
+	public String[] validNames() throws IOException {
+		String[] validFirstNames = new String[2];
+		int j = 0;
+		for (int i = 40; i < 42; i++) {
+			validFirstNames[j] = xl.getCellData("Test", i, 0);
+			j++;
+		}
+		return validFirstNames;
+	}
+	
+	@DataProvider
+	public String[] occupationOptions() throws IOException {
+		String occupationOptions[] = new String[5];
+		int j = 0;
+		for (int i = 43; i < 48; i++) {
+			occupationOptions[j] = xl.getCellData("Test", i, 0);
+			j++;
+		}
+		return occupationOptions;
 	}
 }

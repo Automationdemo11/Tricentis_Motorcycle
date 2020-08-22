@@ -106,7 +106,7 @@ public class HomePage extends Driver {
 	public void verifyIsSearchsupportClickable() throws InterruptedException
 	{
 	String parent=dr.getWindowHandle();
-	System.out.println(parent);
+//	System.out.println(parent);
 	dr.findElement(By.id("search_form")).sendKeys("BMW");
 	dr.findElement(By.id("search_form")).sendKeys(Keys.ENTER);
 	//WAY3= By finding unique elements in child windows.

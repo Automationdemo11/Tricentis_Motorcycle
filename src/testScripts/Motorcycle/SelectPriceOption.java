@@ -9,7 +9,7 @@ import libraries.CommonLibrary;
 public class SelectPriceOption extends PreconditionMotorcycle {
 
 	CommonLibrary lib = new CommonLibrary();
-	
+
 	@BeforeClass
 	public void preClass() throws InterruptedException {
 		Thread.sleep(3000);

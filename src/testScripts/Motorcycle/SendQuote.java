@@ -8,7 +8,7 @@ import libraries.CommonLibrary;
 
 public class SendQuote extends PreconditionMotorcycle{
 	
-	CommonLibrary lib = new CommonLibrary();
+//	CommonLibrary lib = new CommonLibrary();
 	
 	@BeforeClass
 	public void beforeProductData() throws InterruptedException {

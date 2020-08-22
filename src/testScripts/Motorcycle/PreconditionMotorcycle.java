@@ -35,8 +35,8 @@ public class PreconditionMotorcycle extends Driver {
 
 	}
 
-/*	@AfterTest
+	@AfterTest
 	public void closeBrowser() {
 		dr.quit();
-	}*/
+	}
 }

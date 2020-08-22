@@ -10,8 +10,8 @@ import libraries.CommonLibrary;
 import testScripts.Motorcycle.PreconditionMotorcycle;
 
 public class SelectPriceOption {
-	WebDriver dr;
 
+	WebDriver dr;
 	CommonLibrary lib = new CommonLibrary();
 
 	public SelectPriceOption(WebDriver dr) 
@@ -240,7 +240,6 @@ public class SelectPriceOption {
 		check1.click();
 		isSelected1 = check1.isSelected();
 		dr.findElement(By.id("nextselectpriceoption")).click();
-
 	}
 
 }

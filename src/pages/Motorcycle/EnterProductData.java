@@ -58,8 +58,8 @@ public class EnterProductData {
 		dr.findElement(startDateTextBox).clear();
 		dr.findElement(startDateTextBox).sendKeys(validDate);
 		String startDateLabelText = dr.findElement(startDateLabel).getText();
-		String path = lib.validationXpath(startDateLabelText);
-		return lib.verifyValidSelections(dr, path);
+		By ele = lib.validationXpath(startDateLabelText);
+		return lib.isElementPresent(dr, ele);
 	}
 
 	public String verifyNextLabelText() {
@@ -87,8 +87,8 @@ public class EnterProductData {
 	public boolean validateInsuranceSumSelection() {
 		dr.findElement(By.xpath("(//select[@id='insurancesum']/option)[2]")).click();
 		String insuranceSumLabelText = dr.findElement(insuranceSumLabel).getText();
-		String path = lib.validationXpath(insuranceSumLabelText);
-		return lib.verifyValidSelections(dr, path);
+		By ele = lib.validationXpath(insuranceSumLabelText);
+		return lib.isElementPresent(dr, ele);
 	}
 
 	public boolean verifyDamageInsuranceLabelVisibility() {
@@ -112,8 +112,8 @@ public class EnterProductData {
 	public boolean validateDamageInsuranceDropDownSelection() {
 		dr.findElement(By.xpath("(//select[@id='damageinsurance']/option)[3]")).click();
 		String damageInsuranceLabelText = dr.findElement(damageInsuranceLabel).getText();
-		String path = lib.validationXpath(damageInsuranceLabelText);
-		return lib.verifyValidSelections(dr, path);
+		By ele = lib.validationXpath(damageInsuranceLabelText);
+		return lib.isElementPresent(dr, ele);
 	}
 
 	public Object verifyOptionalProductLabelVisibility() {
@@ -127,8 +127,8 @@ public class EnterProductData {
 	public boolean validateOptionalProductCheckBoxSelection() {
 		dr.findElement(By.xpath("//label[contains(.,'Euro Protection')]/span")).click();
 		String optionalProductLabelText = dr.findElement(optionalProductLabel).getText();
-		String path = lib.validationXpath(optionalProductLabelText);
-		return lib.verifyValidSelections(dr, path);
+		By ele = lib.validationXpath(optionalProductLabelText);
+		return lib.isElementPresent(dr, ele);
 	}
 
 	public boolean verifyPrevButtonVisibility() {

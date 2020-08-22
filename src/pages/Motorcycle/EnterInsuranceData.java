@@ -34,6 +34,14 @@ public class EnterInsuranceData {
 
 	By navigator = By.xpath("//span[contains(text(),'Motor')]");
 
+	By firstNameLabel = By.xpath("//label[text()='First Name']");
+	By firstNameTextBox = By.xpath("//input[@id='firstname']");
+
+	By lastNameLabel = By.xpath("//label[text()='Last Name']");
+	By lastNameTextBox = By.xpath("//input[@id='lastname']");
+
+	By occupationLabel = By.xpath("//label[text()='Occupation']");
+
 	By hobbiesLabel = By.xpath("//label[text()='Hobbies']");
 	By hobbiesCheckBox = By.xpath("//label[text()='Hobbies']/../p");
 
@@ -43,11 +51,11 @@ public class EnterInsuranceData {
 	By pictureLabel = By.xpath("//label[text()='Picture']");
 	By pictureOpenButton = By.xpath("//button[text()='Open']");
 	By pictureTextBox = By.xpath("//input[@id='picture']");
-	
+
 	By prevButton = By.xpath("//button[@id='preventervehicledata']");
 	By nextButton = By.xpath("//button[@id='nextenterproductdata']");
-	
-	String testImgPath = System.getProperty("user.dir")+"\\src\\testData\\BMW.png";
+
+	String testImgPath = System.getProperty("user.dir") + "\\src\\testData\\BMW.png";
 
 	public boolean verifyHobbiesLabelVisibility() {
 		return lib.isElementPresent(dr, hobbiesLabel);
@@ -59,9 +67,9 @@ public class EnterInsuranceData {
 
 	public boolean validHobbiesSelection() {
 		String hobbies = dr.findElement(hobbiesLabel).getText();
-		String path = lib.validationXpath(hobbies);
+		By ele = lib.validationXpath(hobbies);
 		dr.findElement(By.xpath("(//label[text()='Hobbies']/../p/label/span)[2]")).click();
-		return lib.verifyValidSelections(dr, path);
+		return lib.isElementPresent(dr, ele);
 	}
 
 	public boolean verifyWebsiteLabel() {
@@ -76,18 +84,17 @@ public class EnterInsuranceData {
 		dr.findElement(websiteTextBox).clear();
 		dr.findElement(websiteTextBox).sendKeys(websiteEntry);
 		String website = dr.findElement(websiteLabel).getText();
-		String path = lib.validationXpath(website);
-		return lib.verifyValidSelections(dr, path);
+		By ele = lib.validationXpath(website);
+		return lib.isElementPresent(dr, ele);
 	}
 
-	public boolean invalidWebsiteEntry(String invalidWebsite) throws InterruptedException {
-		dr.findElement(websiteTextBox).clear();
-		Thread.sleep(1000);
-		dr.findElement(websiteTextBox).sendKeys(invalidWebsite);
-		String website = dr.findElement(websiteLabel).getText();
-		String path = lib.validationXpath(website);
-		return lib.verifyValidSelections(dr, path);
-	}
+	/*
+	 * public boolean invalidWebsiteEntry(String invalidWebsite) throws
+	 * InterruptedException { dr.findElement(websiteTextBox).clear();
+	 * Thread.sleep(1000); dr.findElement(websiteTextBox).sendKeys(invalidWebsite);
+	 * String website = dr.findElement(websiteLabel).getText(); String path =
+	 * lib.validationXpath(website); return lib.verifyValidSelections(dr, path); }
+	 */
 
 	public boolean verifyPictureLabelVisibility() {
 		return lib.isElementPresent(dr, pictureLabel);
@@ -125,36 +132,55 @@ public class EnterInsuranceData {
 	}
 
 	public boolean verifyHobbiesOptions(String hobbyText) {
-		String elementPath = "//label[text()='"+hobbyText+"']";
+		String elementPath = "//label[text()='" + hobbyText + "']";
 		By hobbyOpt = By.xpath(elementPath);
 		return lib.isElementPresent(dr, hobbyOpt);
 	}
 
 	public boolean validPictureSelection() throws InterruptedException, AWTException {
-//		System.out.println(testImgPath);
+		// System.out.println(testImgPath);
 		dr.findElement(pictureOpenButton).click();
 		Thread.sleep(3000);
 		StringSelection cb = new StringSelection(testImgPath);
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(cb, null);
-		
+
 		Robot robot = new Robot();
 		robot.keyPress(KeyEvent.VK_CONTROL);
 		robot.keyPress(KeyEvent.VK_V);
-		
+
 		robot.keyRelease(KeyEvent.VK_V);
 		robot.keyRelease(KeyEvent.VK_CONTROL);
-		
+
 		robot.delay(2000);
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
 		Thread.sleep(2000);
 		String imgName = testImgPath.substring(55);
-//		System.out.println(imgName);
-		String imgPath = "//input[@title='"+imgName+"']";
-//		System.out.println(imgPath);
+		String imgPath = "//input[@title='" + imgName + "']";
 		By imgElement = By.xpath(imgPath);
 		return lib.isElementPresent(dr, imgElement);
-//		return true;
+	}
+
+	public boolean validFirstName(String testFirstName) {
+		dr.findElement(firstNameTextBox).clear();
+		dr.findElement(firstNameTextBox).sendKeys(testFirstName);
+		String firstNameLabelText = dr.findElement(firstNameLabel).getText();
+		By ele = lib.validationXpath(firstNameLabelText);
+		return lib.isElementPresent(dr, ele);
+	}
+
+	public boolean validLastName(String testLastName) {
+		dr.findElement(lastNameTextBox).clear();
+		dr.findElement(lastNameTextBox).sendKeys(testLastName);
+		String lastNameLabelText = dr.findElement(lastNameLabel).getText();
+		By ele = lib.validationXpath(lastNameLabelText);
+		return lib.isElementPresent(dr, ele);
+	}
+
+	public boolean verifyOccupationOptions(String occupationOption) {
+		String elementPath = "//option[text()='" + occupationOption + "']";
+		By hobbyOpt = By.xpath(elementPath);
+		return lib.isElementPresent(dr, hobbyOpt);
 	}
 
 }
